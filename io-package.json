@@ -1,21 +1,69 @@
 {
     "common": {
         "name": "iobrowser",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "news": {
+            "0.0.3": {
+                "en": "third commit",
+                "de": "drittes Commit",
+                "ru": "третья фиксация",
+                "pt": "terceiro commit",
+                "nl": "derde commit",
+                "fr": "troisième commit",
+                "it": "terzo impegno",
+                "es": "tercer compromiso",
+                "pl": "trzecie zobowiązanie",
+                "zh-cn": "第三次提交"
+            },
             "0.0.2": {
-                "en": "second commit"
+                "en": "second commit",
+                "de": "zweites Commit",
+                "ru": "вторая фиксация",
+                "pt": "segundo commit",
+                "nl": "tweede commit",
+                "fr": "deuxième commit",
+                "it": "secondo impegno",
+                "es": "segundo compromiso",
+                "pl": "drugie zatwierdzenie",
+                "zh-cn": "第二次提交"
             },
             "0.0.1": {
-                "en": "first commit"
+                "en": "first commit",
+                "de": "erstes Commit",
+                "ru": "первая фиксация",
+                "pt": "primeiro commit",
+                "nl": "eerste commit",
+                "fr": "premier engagement",
+                "it": "primo impegno",
+                "es": "primer compromiso",
+                "pl": "pierwsze zatwierdzenie",
+                "zh-cn": "第一次提交"
             }
         },
         "title": "ioBrowser",
         "titleLang": {
-            "en": "ioBrowser"
+            "en": "ioBrowser",
+            "de": "ioBrowser",
+            "ru": "ioBrowser",
+            "pt": "ioBrowser",
+            "nl": "ioBrowser",
+            "fr": "ioBrowser",
+            "it": "ioBrowser",
+            "es": "ioBrowser",
+            "pl": "ioBrowser",
+            "zh-cn": "浏览器"
         },
         "desc": {
-            "en": "remote Fullscreenbrowser"
+            "en": "remote Fullscreenbrowser",
+            "de": "Remote-Vollbildbrowser",
+            "ru": "удаленный полноэкранный браузер",
+            "pt": "Fullscreenbrowser remoto",
+            "nl": "afstandsbediening Volledig scherm",
+            "fr": "navigateur plein écran à distance",
+            "it": "browser a schermo intero remoto",
+            "es": "navegador de pantalla completa remoto",
+            "pl": "zdalna przeglądarka pełnoekranowa",
+            "zh-cn": "远程全屏浏览器"
         },
         "authors": [
             "bettman66 <w.zengel@gmx.de>",
@@ -48,16 +96,16 @@
     "objects": [],
     "instanceObjects": [
         {
-            "_id": "Connected",
+            "_id": "sendURL",
             "type": "state",
             "common": {
-                "name": "Connected",
-                "desc": "Browser connected",
-                "type": "boolean",
-                "role": "indicator",
+                "name": "sendURL",
+                "desc": "send URL to Browser",
+                "type": "string",
+                "role": "text",
                 "read": true,
-                "write": false,
-                "def": false
+                "write": true,
+                "def": ""
             },
             "native": {}
         }
