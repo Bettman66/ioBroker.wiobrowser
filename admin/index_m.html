@@ -1,0 +1,259 @@
+<html>
+
+<head>
+
+    <!-- Load ioBroker scripts and styles-->
+    <link rel="stylesheet" type="text/css" href="../../lib/css/fancytree/ui.fancytree.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/adapter.css" />
+    <link rel="stylesheet" type="text/css" href="../../lib/css/materialize.css">
+
+    <script type="text/javascript" src="../../lib/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../../socket.io/socket.io.js"></script>
+
+    <script type="text/javascript" src="../../lib/js/materialize.js"></script>
+    <script type="text/javascript" src="../../lib/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/jquery.fancytree-all.min.js"></script>
+
+    <script type="text/javascript" src="../../js/translate.js"></script>
+    <script type="text/javascript" src="../../lib/js/selectID.js"></script>
+    <script type="text/javascript" src="../../js/adapter-settings.js"></script>
+    <script type="text/javascript" src="actions.js"></script>
+
+    <!-- Load our own files -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="words.js"></script>
+
+    <style>
+        .sub-title {
+            margin-top: 2rem !important;
+            padding: 0.5rem;
+            background: #64b5f6;
+            color: white;
+        }
+
+        .main-page {
+            height: 100%;
+            overflow: hidden;
+            margin-bottom: 0 !important;
+        }
+
+        .page {
+            height: calc(100% - 34px) !important;
+        }
+    </style>
+
+    <script type="text/javascript">
+        // This will be called by the admin adapter when the settings page loads
+        function load(settings, onChange) {
+            // example: select elements with id=key and class=value and insert value
+            if (!settings) return;
+            $('.value').each(function () {
+                var $key = $(this);
+                var id = $key.attr('id');
+                if ($key.attr('type') === 'checkbox') {
+                    // do not call onChange direct, because onChange could expect some arguments
+                    $key.prop('checked', settings[id]).on('change', function () {
+                        showHideSettings();
+                        onChange();
+                    });
+                } else {
+                    // do not call onChange direct, because onChange could expect some arguments
+                    $key.val(settings[id])
+                        .on('change', () => onChange())
+                        .on('keyup', () => onChange())
+                        ;
+                }
+            });
+
+            //var events = [];
+
+            events = settings.events || [];
+
+            showHideSettings();
+
+            values2table('events', events, onChange, tableOnReady);
+
+            onChange(false);
+            // reinitialize all the Materialize labels on the page if you are dynamically adding inputs:
+
+            if (M) M.updateTextFields();
+
+            getAdapterInstances('feiertage', function (instances) {
+                fillInstances('publicHolInstance', instances, settings['publicHolInstance']);
+            });
+            fillPosition();
+
+        }
+        function fillPosition() {
+            socket.emit('getObject', 'system.config', function (err, obj) {
+            });
+        }
+        function fillInstances(id, arr, val) {
+            var $sel = $('#' + id);
+            $sel.html('<option value="">' + _('none') + '</option>');
+            for (var i = 0; i < arr.length; i++) {
+                var _id = arr[i]._id.replace('system.adapter.', '');
+                $sel.append('<option value="' + _id + '"' + (_id === val ? ' selected' : '') + '>' + _id + '</option>');
+            }
+            $sel.select();
+        }
+        function tableOnReady() {
+            $('#events .table-values-div .table-values .values-buttons[data-command="edit2"]').on('click', function () {
+                let id = $(this).data('index');
+                initSelectId(function (sid) {
+                    sid.selectId('show', $('#events .values-input[data-name="name"][data-index="' + id + '"]').val(), function (newId) {
+                        if (newId) {
+                            $('#events .values-input[data-name="name"][data-index="' + id + '"]').val(newId).trigger('change');
+                            socket.emit('getObject', newId, function (err, obj) {
+                                var name = getName(obj);
+                                $('#events .values-input[data-name="shutterName"][data-index="' + id + '"]').val(name).trigger('change');
+                            });
+                        }
+                    });
+                });
+            });
+        }
+
+        // This will be called by the admin adapter when the user presses the save button
+        function save(callback) {
+            // example: select elements with class=value and build settings object
+            var obj = {};
+            $('.value').each(function () {
+                var $this = $(this);
+                if ($this.attr('type') === 'checkbox') {
+                    obj[$this.attr('id')] = $this.prop('checked');
+                } else {
+                    obj[$this.attr('id')] = $this.val();
+                }
+            });
+
+            // Get edited table
+            obj.events = table2values('events');
+
+
+            callback(obj);
+        }
+        function showHideSettings() {
+
+            if ($('#publicHolidays').prop('checked')) {
+                $('.publicHol').show();
+            } else {
+                $('.publicHol').hide();
+            }
+        }
+
+        var selectId;
+        function initSelectId(callback) {
+            if (selectId) {
+                return callback(selectId);
+            }
+            socket.emit('getObjects', function (err, objs) {
+                selectId = $('#dialog-select-member').selectId('init', {
+                    noMultiselect: true,
+                    objects: objs,
+                    imgPath: '../../lib/css/fancytree/',
+                    filter: { type: 'state' },
+                    name: 'scenes-select-state',
+                    texts: {
+                        select: _('Select'),
+                        cancel: _('Cancel'),
+                        all: _('All'),
+                        id: _('ID'),
+                        name: _('Name'),
+                        role: _('Role'),
+                        room: _('Room'),
+                        value: _('Value'),
+                        selectid: _('Select ID'),
+                        from: _('From'),
+                        lc: _('Last changed'),
+                        ts: _('Time stamp'),
+                        wait: _('Processing...'),
+                        ack: _('Acknowledged'),
+                        selectAll: _('Select all'),
+                        unselectAll: _('Deselect all'),
+                        invertSelection: _('Invert selection')
+                    },
+                    columns: ['image', 'name', 'role', 'room']
+                });
+                callback(selectId);
+            });
+        }
+
+        function getName(obj) {
+            if (obj && obj.common && obj.common.name) {
+                var name = obj.common.name;
+                if (typeof name === 'object') {
+                    name = name[systemLang] || name.en;
+                }
+                return name;
+            } else if (obj && obj.name) {
+                var name = obj.name;
+                if (typeof name === 'object') {
+                    name = name[systemLang] || name.en;
+                }
+                return name;
+            } else {
+                var parts = obj.id.split('.');
+                var last = parts.pop();
+                return last[0].toUpperCase() + last.substring(1).toLowerCase();
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="m adapter-container">
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s1"><a href="#tab-main" class="translate active">Connection</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <!-- main settings -->
+                <div id="tab-main" class="col s12 page">
+                    <div class="row">
+                        <div class="col s6">
+                            <img src="iobrowser.png" class="logo">
+                        </div>
+                    </div>
+                    <h6 class="translate sub-title">Connection settings</h6>
+                    <div class="row">
+                        <div class="input-field col s12 m6 l4" id="_url">
+                            <input type="text" id="url" class="value" />
+                            <label class="translate" for="url">URL:</label>
+                        </div>
+                        <div class="input-field col s12 m6 l4">
+                            <input id="port" type="number" min="1" max="65565" class="value" />
+                            <label class="translate" for="port">Port:</label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m material-dialogs">
+            <div id="dialog-select-member" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                    <div class="row">
+                        <div class="col s12 title"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 dialog-content">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a class="modal-action modal-close waves-effect waves-green btn btn-set"><i
+                            class="large material-icons left">check</i><span class="translate">Select</span></a>
+                    <a class="modal-action modal-close waves-effect waves-green btn btn-close"><i
+                            class="large material-icons left ">close</i><span class="translate">Cancel</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

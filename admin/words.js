@@ -1,0 +1,7 @@
+/*global systemDictionary:true */
+'use strict';
+
+systemDictionary = {
+    "Connection": {                                  "en": "Connection",                                      "de": "Verbindung",                                      "ru": "соединение",                                      "pt": "Conexão",                                         "nl": "Verbinding",                                      "fr": "Connexion",                                       "it": "Connessione",                                     "es": "Conexión",                                        "pl": "Połączenie",                                      "zh-cn": "连接"},
+    "Connection settings": {                         "en": "Connection settings",                             "de": "Verbindungseinstellungen",                        "ru": "Настройки соединения",                            "pt": "Configurações de conexão",                        "nl": "Verbindingsinstellingen",                         "fr": "Paramètres de connexion",                         "it": "Impostazioni di connessione",                     "es": "Configuraciones de conexión",                     "pl": "Ustawienia połączenia",                           "zh-cn": "连接设定"}
+ };
