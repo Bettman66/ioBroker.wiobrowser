@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "iobrowser",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "news": {
+            "0.0.4": {
+                "en": "add receiveURL",
+                "de": "empfangeURL hinzufügen",
+                "ru": "добавить receiveURL",
+                "pt": "adicionar receiveURL",
+                "nl": "ontvang-URL toevoegen",
+                "fr": "ajouter une URL de réception",
+                "it": "aggiungi URL di ricezione",
+                "es": "añadir URL de recepción",
+                "pl": "dodaj adres URL odbioru",
+                "zh-cn": "添加接收网址"
+            },
             "0.0.3": {
                 "en": "third commit",
                 "de": "drittes Commit",
@@ -105,6 +117,20 @@
                 "role": "text",
                 "read": true,
                 "write": true,
+                "def": ""
+            },
+            "native": {}
+        },
+        {
+            "_id": "receiveURL",
+            "type": "state",
+            "common": {
+                "name": "receiveURL",
+                "desc": "receive URL from Browser",
+                "type": "string",
+                "role": "text",
+                "read": true,
+                "write": false,
                 "def": ""
             },
             "native": {}
