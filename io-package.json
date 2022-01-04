@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "iobrowser",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "news": {
+            "0.0.5": {
+                "en": "change Framework",
+                "de": "Rahmen ändern",
+                "ru": "изменить структуру",
+                "pt": "mudar a estrutura",
+                "nl": "verander kader",
+                "fr": "changer le cadre",
+                "it": "cambia quadro",
+                "es": "cambiar el marco",
+                "pl": "zmień framework",
+                "zh-cn": "改变框架"
+            },
             "0.0.4": {
                 "en": "add receiveURL",
                 "de": "empfangeURL hinzufügen",
