@@ -35,7 +35,7 @@
     "gulp": "^4.0.2",
     "mocha": "^9.1.3"
   },
-  "commonDependencies": {
+  "common.dependencies": {
     "js-controller": ">=3.0.0"
   },
   "main": "main.js",
