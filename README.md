@@ -1,4 +1,4 @@
-# ioBroker.iobrowser
+# ioBroker.wiobrowser
 
 ## Changelog
 ### 0.0.5
