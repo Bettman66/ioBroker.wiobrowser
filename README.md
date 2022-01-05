@@ -7,7 +7,8 @@
 ### 0.0.4
 * (bettman66) add receiveURL
 
-## The MIT License (MIT)
+## License
+The MIT License (MIT)
 
 Copyright (c) 2022 Walter Zengel <w.zengel@gmx.de>
 
