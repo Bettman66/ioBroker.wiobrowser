@@ -1,22 +1,22 @@
 {
-  "name": "iobroker.iobrowser",
+  "name": "iobroker.wiobrowser",
   "version": "0.0.5",
-  "description": "iobrowser",
+  "description": "wiobrowser",
   "author": "bettman66 <w.zengel@gmx.de>",
   "contributors": [
     "bluefox <dogafox@gmail.com>"
   ],
-  "homepage": "https://github.com/Bettman66/ioBroker.iobrowser",
+  "homepage": "https://github.com/Bettman66/ioBroker.wiobrowser",
   "license": "MIT",
   "keywords": [
     "ioBroker",
-    "iobrowser",
+    "wiobrowser",
     "Smart Home",
     "home automation"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bettman66/ioBroker.iobrowser"
+    "url": "https://github.com/Bettman66/ioBroker.wiobrowser"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -41,7 +41,7 @@
     "release": "release-script"
   },
   "bugs": {
-    "url": "https://github.com/Bettman66/ioBroker.iobrowser/issues"
+    "url": "https://github.com/Bettman66/ioBroker.wiobrowser/issues"
   },
   "readmeFilename": "README.md"
 }

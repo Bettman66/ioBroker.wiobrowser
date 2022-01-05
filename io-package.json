@@ -1,6 +1,6 @@
 {
     "common": {
-        "name": "iobrowser",
+        "name": "wiobrowser",
         "version": "0.0.5",
         "news": {
             "0.0.5": {
@@ -64,17 +64,17 @@
                 "zh-cn": "第一次提交"
             }
         },
-        "title": "ioBrowser",
+        "title": "wioBrowser",
         "titleLang": {
-            "en": "ioBrowser",
-            "de": "ioBrowser",
-            "ru": "ioBrowser",
-            "pt": "ioBrowser",
-            "nl": "ioBrowser",
-            "fr": "ioBrowser",
-            "it": "ioBrowser",
-            "es": "ioBrowser",
-            "pl": "ioBrowser",
+            "en": "wioBrowser",
+            "de": "wioBrowser",
+            "ru": "wioBrowser",
+            "pt": "wioBrowser",
+            "nl": "wioBrowser",
+            "fr": "Navigateur wio",
+            "it": "wioBrowser",
+            "es": "wioBrowser",
+            "pl": "wioBrowser",
             "zh-cn": "浏览器"
         },
         "desc": {
@@ -96,16 +96,16 @@
         "docs": {},
         "platform": "Javascript/Node.js",
         "mode": "daemon",
-        "icon": "iobrowser.png",
+        "icon": "wiobrowser.png",
         "materialize": true,
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/Bettman66/ioBroker.iobrowser/master/admin/iobrowser.png",
+        "extIcon": "https://raw.githubusercontent.com/Bettman66/ioBroker.wiobrowser/master/admin/wiobrowser.png",
         "keywords": [
-            "iobrowser",
+            "wiobrowser",
             "fullscreenbrowser",
             "tcp socket"
         ],
-        "readme": "https://github.com/Bettman66/ioBroker.iobrowser/blob/master/README.md",
+        "readme": "https://github.com/Bettman66/ioBroker.wiobrowser/blob/master/README.md",
         "loglevel": "info",
         "type": "communication",
         "connectionType": "local",

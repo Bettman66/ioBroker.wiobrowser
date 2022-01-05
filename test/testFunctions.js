@@ -14,7 +14,7 @@ function checkConnectionOfAdapter(cb, counter) {
         return;
     }
 
-    states.getState('system.adapter.iobrowser.0.alive', (err, state) => {
+    states.getState('system.adapter.wiobrowser.0.alive', (err, state) => {
         if (err) console.error(err);
         if (state && state.val) {
             cb && cb();
@@ -44,8 +44,8 @@ function checkValueOfState(id, value, cb, counter) {
     });
 }
 
-describe('Test ioBrowser', function () {
-    before('Test ioBrowser: Start js-controller', function (_done) {
+describe('Test wioBrowser', function () {
+    before('Test wioBrowser: Start js-controller', function (_done) {
         this.timeout(600000); // because of first install from npm
 
         setup.setupController(() => {
@@ -76,11 +76,11 @@ describe('Test ioBrowser', function () {
         });
     });
 
-    it('Test ioBrowser: Check if adapter started', done => {
+    it('Test wioBrowser: Check if adapter started', done => {
         checkConnectionOfAdapter(done);
     }).timeout(5000);
 
-    after('Test ioBrowser: Stop js-controller', function (done) {
+    after('Test wioBrowser: Stop js-controller', function (done) {
         this.timeout(6000);
 
         setup.stopController(normalTerminated => {

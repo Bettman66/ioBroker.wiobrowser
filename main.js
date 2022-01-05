@@ -1,6 +1,6 @@
 /*
  *
- *      ioBroker ioBrowser Adapter
+ *      ioBroker wioBrowser Adapter
  *
  *      (c) 2022 bettman66<w.zengel@gmx.de>
  *
