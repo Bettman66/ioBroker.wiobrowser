@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "news": {
+            "0.0.7": {
+                "en": "add slideshow",
+                "de": "Diashow hinzufügen",
+                "ru": "добавить слайд-шоу",
+                "pt": "adicionar apresentação de slides",
+                "nl": "diavoorstelling toevoegen",
+                "fr": "ajouter un diaporama",
+                "it": "aggiungi presentazione",
+                "es": "agregar presentación de diapositivas",
+                "pl": "dodaj pokaz slajdów",
+                "zh-cn": "添加幻灯片"
+            },
             "0.0.6": {
                 "en": "add zoom",
                 "de": "Zoom hinzufügen",
@@ -142,6 +154,19 @@
     "objects": [],
     "instanceObjects": [
         {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "If connected to wioBrowser",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        },
+        {
             "_id": "sendURL",
             "type": "state",
             "common": {
@@ -151,7 +176,7 @@
                 "role": "text",
                 "read": true,
                 "write": true,
-                "def": ""
+                "def": "https://forum.iobroker.net/"
             },
             "native": {}
         },
@@ -179,7 +204,21 @@
                 "role": "value.zoom",
                 "read": true,
                 "write": true,
-                "def": ""
+                "def": 1
+            },
+            "native": {}
+        },
+        {
+            "_id": "slidetime",
+            "type": "state",
+            "common": {
+                "name": "slidetime",
+                "desc": "time for interval",
+                "type": "number",
+                "role": "value",
+                "read": true,
+                "write": true,
+                "def": 0
             },
             "native": {}
         }
