@@ -1,8 +1,11 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "news": {
+            "0.0.8": {
+                "en": "add battery capacity"
+            },
             "0.0.7": {
                 "en": "add slideshow",
                 "de": "Diashow hinzufügen",
@@ -219,6 +222,20 @@
                 "read": true,
                 "write": true,
                 "def": 0
+            },
+            "native": {}
+        },
+        {
+            "_id": "battery",
+            "type": "state",
+            "common": {
+                "name": "battery",
+                "desc": "battery capacity",
+                "type": "number",
+                "role": "value.capacity",
+                "read": true,
+                "write": false,
+                "def": 100
             },
             "native": {}
         }
