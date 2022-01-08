@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "news": {
+            "0.1.2": {
+                "en": "add time,zoom by page",
+                "de": "Zeit hinzufügen, nach Seite zoomen",
+                "ru": "добавить время, увеличить по странице",
+                "pt": "adicionar tempo, zoom por página",
+                "nl": "tijd toevoegen, zoomen per pagina",
+                "fr": "ajouter du temps, zoomer par page",
+                "it": "aggiungi tempo, ingrandisci per pagina",
+                "es": "añadir tiempo, zoom por página",
+                "pl": "dodaj czas, powiększ według strony",
+                "zh-cn": "添加时间，逐页放大"
+            },
             "0.1.1": {
                 "en": "add screenon",
                 "de": "Bildschirm hinzufügen",
@@ -257,16 +269,16 @@
             "native": {}
         },
         {
-            "_id": "slidetime",
+            "_id": "slide",
             "type": "state",
             "common": {
-                "name": "slidetime",
-                "desc": "time for interval",
-                "type": "number",
-                "role": "value",
+                "name": "slide",
+                "desc": "slideshow on/off",
+                "type": "boolean",
+                "role": "switch",
                 "read": true,
                 "write": true,
-                "def": 0
+                "def": false
             },
             "native": {}
         },

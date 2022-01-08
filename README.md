@@ -21,6 +21,9 @@ Dieser Adapter verbindet sich über tcp.socket mit dem Windows Fullscreenbrowser
 
 ## Changelog
 ### 0.1.1
+* (bettman66) add time,zoom by page
+
+### 0.1.1
 * (bettman66) add screenon
 
 ### 0.1.0
