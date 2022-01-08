@@ -1,3 +1,4 @@
+![Logo](admin/wiobrowser.png)
 # ioBroker.wiobrowser
 
 ![Number of Installations](http://iobroker.live/badges/wiobrowser-installed.svg)
