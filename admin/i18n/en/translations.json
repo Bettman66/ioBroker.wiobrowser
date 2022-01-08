@@ -1,4 +1,7 @@
 {
     "Connection": "Connection",
-    "Connection settings": "Connection settings"
+    "Connection settings": "Connection settings",
+    "Enabled": "Enabled",
+    "Page": "Page",
+    "Pages": "Pages"
 }

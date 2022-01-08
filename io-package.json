@@ -1,10 +1,31 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.0.8",
+        "version": "0.0.9",
         "news": {
+            "0.0.9": {
+                "en": "add translate",
+                "de": "Übersetzen hinzufügen",
+                "ru": "добавить перевод",
+                "pt": "adicionar traduzir",
+                "nl": "voeg vertalen toe",
+                "fr": "ajouter traduire",
+                "it": "aggiungi traduci",
+                "es": "añadir traducir",
+                "pl": "dodaj tłumaczenie",
+                "zh-cn": "添加翻译"
+            },
             "0.0.8": {
-                "en": "add battery capacity"
+                "en": "add battery capacity",
+                "de": "Batteriekapazität hinzufügen",
+                "ru": "добавить емкость аккумулятора",
+                "pt": "adicionar capacidade da bateria",
+                "nl": "batterijcapaciteit toevoegen",
+                "fr": "ajouter de la capacité de la batterie",
+                "it": "aggiungere la capacità della batteria",
+                "es": "añadir capacidad de batería",
+                "pl": "dodaj pojemność baterii;",
+                "zh-cn": "增加电池容量"
             },
             "0.0.7": {
                 "en": "add slideshow",
