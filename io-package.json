@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.0.9",
+        "version": "0.1.0",
         "news": {
+            "0.1.0": {
+                "en": "disable slideshow by click",
+                "de": "Diashow per Klick deaktivieren",
+                "ru": "отключить слайд-шоу, нажав",
+                "pt": "desativar apresentação de slides por clique",
+                "nl": "diavoorstelling uitschakelen door te klikken",
+                "fr": "désactiver le diaporama par clic",
+                "it": "disabilita la presentazione con un clic",
+                "es": "deshabilitar la presentación de diapositivas con un clic",
+                "pl": "wyłącz pokaz slajdów, klikając",
+                "zh-cn": "通过单击禁用幻灯片"
+            },
             "0.0.9": {
                 "en": "add translate",
                 "de": "Übersetzen hinzufügen",
