@@ -20,6 +20,9 @@ Dieser Adapter verbindet sich über tcp.socket mit dem Windows Fullscreenbrowser
 * https://forum.iobroker.net/topic/50982/neuer-adapter-wiobrowser-f%C3%BCr-windows
 
 ## Changelog
+### 0.1.3
+* (bettman66) add screenoff
+
 ### 0.1.2
 * (bettman66) add time,zoom by page
 
@@ -28,24 +31,6 @@ Dieser Adapter verbindet sich über tcp.socket mit dem Windows Fullscreenbrowser
 
 ### 0.1.0
 * (bettman66) disable slideshow by click
-
-### 0.0.9
-* (bettman66) add translate
-
-### 0.0.8
-* (bettman66) add battery capacity
-
-### 0.0.7
-* (bettman66) add slideshow
-
-### 0.0.6
-* (bettman66) add zoom
-
-### 0.0.5
-* (bettman66) change Framework
-
-### 0.0.4
-* (bettman66) add receiveURL
 
 ## License
 The MIT License (MIT)

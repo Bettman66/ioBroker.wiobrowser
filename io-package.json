@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "news": {
+            "0.1.3": {
+                "en": "add screenoff",
+                "de": "Screenoff hinzufügen",
+                "ru": "добавить скриншот",
+                "pt": "adicionar tela desligada",
+                "nl": "voeg schermaf toe",
+                "fr": "ajouter un écran",
+                "it": "aggiungi screenoff",
+                "es": "agregar pantalla apagada",
+                "pl": "dodaj zrzut ekranu",
+                "zh-cn": "添加屏幕关闭"
+            },
             "0.1.2": {
                 "en": "add time,zoom by page",
                 "de": "Zeit hinzufügen, nach Seite zoomen",
@@ -300,13 +312,27 @@
             "_id": "screenon",
             "type": "state",
             "common": {
-                "role": "value",
+                "role": "switch",
                 "name": "screenon",
-                "desc": "screen on/off",
+                "desc": "screen on",
                 "type": "boolean",
                 "read": true,
                 "write": true,
-                "def": true
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "screenoff",
+            "type": "state",
+            "common": {
+                "role": "switch",
+                "name": "screenoff",
+                "desc": "screen off",
+                "type": "boolean",
+                "read": true,
+                "write": true,
+                "def": false
             },
             "native": {}
         }
