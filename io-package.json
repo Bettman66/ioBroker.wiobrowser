@@ -1,10 +1,31 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.1.4",
+        "version": "0.1.5",
         "news": {
+            "0.1.5": {
+                "en": "add error object",
+                "de": "Fehlerobjekt hinzufügen",
+                "ru": "добавить объект ошибки",
+                "pt": "adicionar objeto de erro",
+                "nl": "foutobject toevoegen",
+                "fr": "ajouter un objet d'erreur",
+                "it": "aggiungi oggetto di errore",
+                "es": "añadir objeto de error",
+                "pl": "dodaj obiekt błędu",
+                "zh-cn": "添加错误对象"
+            },
             "0.1.4": {
-                "en": "add popup message"
+                "en": "add popup message",
+                "de": "Popup-Nachricht hinzufügen",
+                "ru": "добавить всплывающее сообщение",
+                "pt": "adicionar mensagem pop-up",
+                "nl": "pop-upbericht toevoegen",
+                "fr": "ajouter un message contextuel",
+                "it": "aggiungi messaggio popup",
+                "es": "añadir mensaje emergente",
+                "pl": "dodaj wyskakującą wiadomość",
+                "zh-cn": "添加弹出消息"
             },
             "0.1.3": {
                 "en": "add screenoff",
@@ -350,6 +371,34 @@
                 "read": true,
                 "write": true,
                 "def": "Hallo"
+            },
+            "native": {}
+        },
+        {
+            "_id": "error",
+            "type": "state",
+            "common": {
+                "role": "value",
+                "name": "error",
+                "desc": "Error",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "close",
+            "type": "state",
+            "common": {
+                "role": "value",
+                "name": "close",
+                "desc": "Close wioBrowser",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
             },
             "native": {}
         }
