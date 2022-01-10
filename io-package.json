@@ -1,8 +1,11 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.1.3",
+        "version": "0.1.4",
         "news": {
+            "0.1.4": {
+                "en": "add popup message"
+            },
             "0.1.3": {
                 "en": "add screenoff",
                 "de": "Screenoff hinzufügen",
@@ -333,6 +336,20 @@
                 "read": true,
                 "write": true,
                 "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "message",
+            "type": "state",
+            "common": {
+                "name": "message",
+                "desc": "send Message to Browser",
+                "type": "string",
+                "role": "text",
+                "read": true,
+                "write": true,
+                "def": "Hallo"
             },
             "native": {}
         }
