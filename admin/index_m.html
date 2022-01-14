@@ -25,7 +25,7 @@
 
     <script type="text/javascript">
         var pages = [];
-
+        var messages = [];
         // the function loadSettings has to exist ...
         function load(settings, onChange) {
             if (!settings) {
@@ -37,6 +37,14 @@
             for (var i = 0; i < pages.length; i++) {
                 if (pages[i].enabled === undefined) {
                     pages[i].enabled = true;
+                }
+            }
+
+            messages = settings.messages || [];
+
+            for (var i = 0; i < messages.length; i++) {
+                if (messages[i].enabled === undefined) {
+                    messages[i].enabled = true;
                 }
             }
 
@@ -60,6 +68,7 @@
 
             onChange(false);
             values2table('pages', pages, onChange);
+            values2table('messages', messages, onChange);
         }
 
         function save(callback) {
@@ -74,6 +83,7 @@
             });
             // Get edited table
             obj.pages = table2values('pages');
+            obj.messages = table2values('messages');
 
             callback(obj);
         }
@@ -92,6 +102,7 @@
                 <ul class="tabs">
                     <li class="tab col s2"><a href="#tab-main" class="translate active">Connection Settings</a></li>
                     <li class="tab col s2"><a href="#tab-pages" class="translate">Pages</a></li>
+                    <li class="tab col s2"><a href="#tab-messages" class="translate">Messages</a></li>
                 </ul>
             </div>
             <div id="tab-main" class="col s12 page">
@@ -128,6 +139,30 @@
                                     <th data-name="name" class="translate">Page</th>
                                     <th data-name="time" class="translate">Time</th>
                                     <th data-name="zoom" class="translate">Zoom</th>
+                                    <th data-buttons="delete up down" style="width: 120px"></th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="tab-messages" class="col s12 page">
+                <div class="col s12" id="messages">
+                    <a class="btn-floating waves-effect waves-light blue table-button-add"><i
+                            class="material-icons">add</i></a>
+                    <div class="table-values-div">
+                        <table class="table-values">
+                            <thead>
+                                <tr>
+                                    <th data-name="_index" style="width: 40px" class="translate"></th>
+                                    <th data-name="enabled" style="width: 70px" data-style="width: 70px"
+                                        data-type="checkbox" class="translate">Enabled</th>
+                                    <th data-name="titel" class="translate">Titel</th>
+                                    <th data-name="caption" class="translate">Caption</th>
+                                    <th data-name="time" class="translate">Time</th>
+                                    <th data-name="left" class="translate">Left</th>
+                                    <th data-name="top" class="translate">Top</th>
+                                    <th data-name="color" class="translate">Color</th>
                                     <th data-buttons="delete up down" style="width: 120px"></th>
                                 </tr>
                             </thead>
