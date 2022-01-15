@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.1.6",
+        "version": "0.1.7",
         "news": {
+            "0.1.7": {
+                "en": "add multiline messages",
+                "de": "mehrzeilige Nachrichten hinzufügen",
+                "ru": "добавить многострочные сообщения",
+                "pt": "adicionar mensagens de várias linhas",
+                "nl": "berichten met meerdere regels toevoegen",
+                "fr": "ajouter des messages multilignes",
+                "it": "aggiungi messaggi multilinea",
+                "es": "añadir mensajes de varias líneas",
+                "pl": "dodaj wiadomości wielowierszowe",
+                "zh-cn": "添加多行消息"
+            },
             "0.1.6": {
                 "en": "add messages style",
                 "de": "Nachrichtenstil hinzufügen",
