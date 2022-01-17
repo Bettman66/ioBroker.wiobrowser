@@ -20,6 +20,9 @@ Dieser Adapter verbindet sich über tcp.socket mit dem Windows Fullscreenbrowser
 * https://forum.iobroker.net/topic/50982/neuer-adapter-wiobrowser-f%C3%BCr-windows
 
 ## Changelog
+### 0.1.9
+* (bettman66) add messages folder
+
 ### 0.1.8
 * (bettman66) add commands
 

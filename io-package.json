@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.1.8",
+        "version": "0.1.9",
         "news": {
+            "0.1.9": {
+                "en": "add messages folder",
+                "de": "Nachrichtenordner hinzufügen",
+                "ru": "добавить папку сообщений",
+                "pt": "adicionar pasta de mensagens",
+                "nl": "berichtenmap toevoegen",
+                "fr": "ajouter un dossier de messages",
+                "it": "aggiungi la cartella dei messaggi",
+                "es": "añadir carpeta de mensajes",
+                "pl": "dodaj folder wiadomości",
+                "zh-cn": "添加消息文件夹"
+            },
             "0.1.8": {
                 "en": "add commands",
                 "de": "Befehle hinzufügen",
@@ -299,7 +311,7 @@
             "native": {}
         },
         {
-            "_id": "sendURL",
+            "_id": "web.sendURL",
             "type": "state",
             "common": {
                 "name": "sendURL",
@@ -313,7 +325,7 @@
             "native": {}
         },
         {
-            "_id": "receiveURL",
+            "_id": "web.receiveURL",
             "type": "state",
             "common": {
                 "name": "receiveURL",
@@ -327,7 +339,7 @@
             "native": {}
         },
         {
-            "_id": "zoom",
+            "_id": "web.zoom",
             "type": "state",
             "common": {
                 "name": "zoom",
@@ -341,7 +353,7 @@
             "native": {}
         },
         {
-            "_id": "slide",
+            "_id": "web.slide",
             "type": "state",
             "common": {
                 "name": "slide",
@@ -355,7 +367,7 @@
             "native": {}
         },
         {
-            "_id": "battery",
+            "_id": "info.battery",
             "type": "state",
             "common": {
                 "name": "battery",
@@ -397,7 +409,7 @@
             "native": {}
         },
         {
-            "_id": "message",
+            "_id": "messages.message",
             "type": "state",
             "common": {
                 "name": "message",
@@ -425,7 +437,7 @@
             "native": {}
         },
         {
-            "_id": "messagestyle",
+            "_id": "messages.messagestyle",
             "type": "state",
             "common": {
                 "name": "messagestyle",
@@ -439,7 +451,7 @@
             "native": {}
         },
         {
-            "_id": "messagenumber",
+            "_id": "messages.messagenumber",
             "type": "state",
             "common": {
                 "name": "messagenumber",
@@ -453,7 +465,7 @@
             "native": {}
         },
         {
-            "_id": "error",
+            "_id": "web.error",
             "type": "state",
             "common": {
                 "role": "value",
