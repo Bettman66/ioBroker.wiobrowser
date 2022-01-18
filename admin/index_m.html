@@ -102,6 +102,7 @@
                 <ul class="tabs">
                     <li class="tab col s2"><a href="#tab-main" class="translate active">Connection Settings</a></li>
                     <li class="tab col s2"><a href="#tab-pages" class="translate">Pages</a></li>
+                    <li class="tab col s2"><a href="#tab-style" class="translate">Style</a></li>
                     <li class="tab col s2"><a href="#tab-messages" class="translate">Messages</a></li>
                 </ul>
             </div>
@@ -121,11 +122,15 @@
                             <input id="port" type="number" min="1" max="65565" class="value" />
                             <label class="translate" for="port">Port:</label>
                         </div>
-
                     </div>
                 </div>
             </div>
             <div id="tab-pages" class="col s12 page">
+                <div class="row">
+                    <div class="col s12 m4 l2">
+                        <img src="wiobrowser.png" class="logo" alt="logo" />
+                    </div>
+                </div>
                 <div class="col s12" id="pages">
                     <a class="btn-floating waves-effect waves-light blue table-button-add"><i
                             class="material-icons">add</i></a>
@@ -144,7 +149,39 @@
                     </div>
                 </div>
             </div>
+            <div id="tab-style" class="col s12 page">
+                <div class="row">
+                    <div class="col s12 m4 l2">
+                        <img src="wiobrowser.png" class="logo" alt="logo" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <div class="input-field col s12 m6 l4" id="_font">
+                            <input type="number" id="font" min="6" max="32" class="value" />
+                            <label class="translate" for="font">MessageFontSize:</label>
+                        </div>
+                        <div class="input-field col s12 m6 l4">
+                            <input id="color" type="text" class="value" />
+                            <label class="translate" for="color">WebColor:</label>
+                        </div>
+                        <div class="input-field col s12 m6 l4">
+                            <input id="top" type="number" min="0" max="800" class="value" />
+                            <label class="translate" for="top">MessageTop:</label>
+                        </div>
+                        <div class="input-field col s12 m6 l4">
+                            <input id="left" type="number" min="0" max="1800" class="value" />
+                            <label class="translate" for="left">MessageLeft:</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="tab-messages" class="col s12 page">
+                <div class="row">
+                    <div class="col s12 m4 l2">
+                        <img src="wiobrowser.png" class="logo" alt="logo" />
+                    </div>
+                </div>
                 <div class="col s12" id="messages">
                     <a class="btn-floating waves-effect waves-light blue table-button-add"><i
                             class="material-icons">add</i></a>
@@ -156,8 +193,6 @@
                                     <th data-name="titel" class="translate">Titel</th>
                                     <th data-name="caption" class="translate">Caption</th>
                                     <th data-name="time" class="translate">Time</th>
-                                    <th data-name="left" class="translate">Left</th>
-                                    <th data-name="top" class="translate">Top</th>
                                     <th data-name="color" class="translate">Color</th>
                                     <th data-buttons="delete up down" style="width: 120px"></th>
                                 </tr>

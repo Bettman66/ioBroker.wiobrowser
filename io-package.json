@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.1.9",
+        "version": "0.2.0",
         "news": {
+            "0.2.0": {
+                "en": "add/remove messagesstyle",
+                "de": "Nachrichtenstil hinzufügen/entfernen",
+                "ru": "добавить/удалить стиль сообщения",
+                "pt": "adicionar/remover estilo de mensagens",
+                "nl": "berichtenstijl toevoegen/verwijderen",
+                "fr": "style d'ajout/suppression de messages",
+                "it": "aggiungi/rimuovi stile messaggi",
+                "es": "agregar/eliminar estilo de mensajes",
+                "pl": "dodaj/usuń styl wiadomości",
+                "zh-cn": "添加/删除消息样式"
+            },
             "0.1.9": {
                 "en": "add messages folder",
                 "de": "Nachrichtenordner hinzufügen",
@@ -293,7 +305,11 @@
     },
     "native": {
         "url": "localhost",
-        "port": "5000"
+        "port": "5000",
+        "color": "#FF0004",
+        "top": "0",
+        "left": "0",
+        "font": "8"
     },
     "objects": [],
     "instanceObjects": [
@@ -409,16 +425,18 @@
             "native": {}
         },
         {
-            "_id": "messages.message",
+            "_id": "brightness",
             "type": "state",
             "common": {
-                "name": "message",
-                "desc": "send Message to Browser",
-                "type": "string",
-                "role": "text",
+                "name": "brightness",
+                "desc": "screen brightness",
+                "type": "number",
+                "role": "value.brightness",
                 "read": true,
-                "write": true,
-                "def": "Hallo"
+                "write": false,
+                "min": 0,
+                "max": 100,
+                "def": 100
             },
             "native": {}
         },
@@ -433,6 +451,20 @@
                 "read": true,
                 "write": true,
                 "def": ""
+            },
+            "native": {}
+        },
+        {
+            "_id": "messages.message",
+            "type": "state",
+            "common": {
+                "name": "message",
+                "desc": "send Message to Browser",
+                "type": "string",
+                "role": "text",
+                "read": true,
+                "write": true,
+                "def": "Hallo"
             },
             "native": {}
         },
