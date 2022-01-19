@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.2.0",
+        "version": "0.2.1",
         "news": {
+            "0.2.1": {
+                "en": "repository",
+                "de": "Repository",
+                "ru": "хранилище",
+                "pt": "repositório",
+                "nl": "opslagplaats",
+                "fr": "dépôt",
+                "it": "deposito",
+                "es": "repositorio",
+                "pl": "magazyn",
+                "zh-cn": "存储库"
+            },
             "0.2.0": {
                 "en": "add/remove messagesstyle",
                 "de": "Nachrichtenstil hinzufügen/entfernen",
