@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.2.1",
+        "version": "0.2.2",
         "news": {
+            "0.2.2": {
+                "en": "add sapi",
+                "de": "Sapi hinzufügen",
+                "ru": "добавить сапи",
+                "pt": "adicionar sapi",
+                "nl": "voeg sapi toe",
+                "fr": "ajouter sapi",
+                "it": "aggiungi sapienza",
+                "es": "añadir sapi",
+                "pl": "dodaj sapi",
+                "zh-cn": "添加 sapi"
+            },
             "0.2.1": {
                 "en": "repository",
                 "de": "Repository",
@@ -404,7 +416,8 @@
                 "role": "value.capacity",
                 "read": true,
                 "write": false,
-                "def": 100
+                "def": 100,
+                "unit": "%"
             },
             "native": {}
         },
@@ -445,10 +458,11 @@
                 "type": "number",
                 "role": "value.brightness",
                 "read": true,
-                "write": false,
+                "write": true,
                 "min": 0,
                 "max": 100,
-                "def": 100
+                "def": 100,
+                "unit": "%"
             },
             "native": {}
         },
@@ -472,6 +486,20 @@
             "common": {
                 "name": "message",
                 "desc": "send Message to Browser",
+                "type": "string",
+                "role": "text",
+                "read": true,
+                "write": true,
+                "def": "Hallo"
+            },
+            "native": {}
+        },
+        {
+            "_id": "messages.texttospeech",
+            "type": "state",
+            "common": {
+                "name": "texttospeech",
+                "desc": "send tts to Browser",
                 "type": "string",
                 "role": "text",
                 "read": true,
