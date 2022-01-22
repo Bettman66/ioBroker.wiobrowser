@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.2.3",
+        "version": "0.2.4",
         "news": {
+            "0.2.4": {
+                "en": "add speakmessage",
+                "de": "Sprechnachricht hinzufügen",
+                "ru": "добавить голосовое сообщение",
+                "pt": "adicionar mensagem de voz",
+                "nl": "spraakbericht toevoegen",
+                "fr": "ajouter un message vocal",
+                "it": "aggiungi messaggio vocale",
+                "es": "agregar mensaje de voz",
+                "pl": "dodaj komunikat głosowy",
+                "zh-cn": "添加语音消息"
+            },
             "0.2.3": {
                 "en": "add volume",
                 "de": "Volumen hinzufügen",
@@ -548,6 +560,20 @@
                 "read": true,
                 "write": true,
                 "def": "Hallo"
+            },
+            "native": {}
+        },
+        {
+            "_id": "messages.speakmessage",
+            "type": "state",
+            "common": {
+                "name": "speakmessage",
+                "desc": "Speakmessage Number",
+                "type": "number",
+                "role": "value",
+                "read": true,
+                "write": true,
+                "def": 0
             },
             "native": {}
         },
