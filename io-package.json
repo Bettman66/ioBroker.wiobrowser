@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.2.2",
+        "version": "0.2.3",
         "news": {
+            "0.2.3": {
+                "en": "add volume",
+                "de": "Volumen hinzufügen",
+                "ru": "добавить объема",
+                "pt": "adicionar volume",
+                "nl": "volume toevoegen",
+                "fr": "ajouter du volume",
+                "it": "aggiungi volume",
+                "es": "agregar volumen",
+                "pl": "dodaj głośność",
+                "zh-cn": "添加音量"
+            },
             "0.2.2": {
                 "en": "add sapi",
                 "de": "Sapi hinzufügen",
@@ -463,6 +475,37 @@
                 "max": 100,
                 "def": 100,
                 "unit": "%"
+            },
+            "native": {}
+        },
+        {
+            "_id": "volume",
+            "type": "state",
+            "common": {
+                "name": "volume",
+                "desc": "Master Volume",
+                "type": "number",
+                "role": "value.volume",
+                "read": true,
+                "write": true,
+                "min": 0,
+                "max": 100,
+                "def": 25,
+                "unit": "%"
+            },
+            "native": {}
+        },
+        {
+            "_id": "mute",
+            "type": "state",
+            "common": {
+                "role": "switch",
+                "name": "mute",
+                "desc": "mute",
+                "type": "boolean",
+                "read": true,
+                "write": true,
+                "def": false
             },
             "native": {}
         },
