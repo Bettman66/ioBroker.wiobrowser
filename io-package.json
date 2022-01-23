@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.2.4",
+        "version": "0.2.5",
         "news": {
+            "0.2.5": {
+                "en": "add cpu info",
+                "de": "CPU-Info hinzufügen",
+                "ru": "добавить информацию о процессоре",
+                "pt": "adicionar informações da CPU",
+                "nl": "cpu-info toevoegen",
+                "fr": "ajouter des informations sur le processeur",
+                "it": "aggiungi informazioni sulla CPU",
+                "es": "agregar información de la CPU",
+                "pl": "dodaj informacje o procesorze",
+                "zh-cn": "添加cpu信息"
+            },
             "0.2.4": {
                 "en": "add speakmessage",
                 "de": "Sprechnachricht hinzufügen",
@@ -441,6 +453,36 @@
                 "read": true,
                 "write": false,
                 "def": 100,
+                "unit": "%"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.cpu",
+            "type": "state",
+            "common": {
+                "name": "cpu",
+                "desc": "cpu prozesslast",
+                "type": "number",
+                "role": "value",
+                "read": true,
+                "write": false,
+                "def": 0,
+                "unit": "%"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.memory",
+            "type": "state",
+            "common": {
+                "name": "memory",
+                "desc": "memory",
+                "type": "number",
+                "role": "value",
+                "read": true,
+                "write": false,
+                "def": 0,
                 "unit": "%"
             },
             "native": {}
