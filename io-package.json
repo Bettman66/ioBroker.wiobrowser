@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.2.6",
+        "version": "0.2.7",
         "news": {
+            "0.2.7": {
+                "en": "add hostname",
+                "de": "Hostnamen hinzufügen",
+                "ru": "добавить имя хоста",
+                "pt": "adicionar nome de host",
+                "nl": "hostnaam toevoegen",
+                "fr": "ajouter un nom d'hôte",
+                "it": "aggiungi nome host",
+                "es": "agregar nombre de host",
+                "pl": "dodaj nazwę hosta",
+                "zh-cn": "添加主机名"
+            },
             "0.2.6": {
                 "en": "add free memory",
                 "de": "freien Speicher hinzufügen",
@@ -451,6 +463,34 @@
                 "read": true,
                 "write": true,
                 "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.ip",
+            "type": "state",
+            "common": {
+                "name": "ip",
+                "desc": "IP from Browser",
+                "type": "string",
+                "role": "text",
+                "read": true,
+                "write": false,
+                "def": ""
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.host",
+            "type": "state",
+            "common": {
+                "name": "host",
+                "desc": "Hostname from Browser",
+                "type": "string",
+                "role": "text",
+                "read": true,
+                "write": false,
+                "def": ""
             },
             "native": {}
         },
