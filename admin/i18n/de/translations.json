@@ -1,7 +1,20 @@
 {
+    "Caption": "Untertitel",
+    "Color": "Farbe",
     "Connection": "Verbindung",
     "Connection settings": "Verbindungseinstellungen",
     "Enabled": "Ermöglicht",
+    "Main": "Hauptsächlich",
+    "Message": "Nachricht",
+    "MessageFontSize": "MessageFontSize",
+    "MessageLeft": "NachrichtLinks",
+    "MessageTop": "NachrichtTop",
+    "Messages": "Mitteilungen",
     "Page": "Buchseite",
-    "Pages": "Seiten"
+    "Pages": "Seiten",
+    "Speak": "Sprechen",
+    "Style": "Stil",
+    "Time": "Zeit",
+    "WebColor": "WebColor",
+    "Zoom": "Zoomen"
 }

@@ -1,7 +1,20 @@
 {
+    "Caption": "Caption",
+    "Color": "Color",
     "Connection": "Connection",
     "Connection settings": "Connection settings",
     "Enabled": "Enabled",
+    "Main": "Main",
+    "Message": "Message",
+    "MessageFontSize": "MessageFontSize",
+    "MessageLeft": "MessageLeft",
+    "MessageTop": "MessageTop",
+    "Messages": "Messages",
     "Page": "Page",
-    "Pages": "Pages"
+    "Pages": "Pages",
+    "Speak": "Speak",
+    "Style": "Style",
+    "Time": "Time",
+    "WebColor": "WebColor",
+    "Zoom": "Zoom"
 }

@@ -1,7 +1,20 @@
 {
+    "Caption": "Didascalia",
+    "Color": "Colore",
     "Connection": "Connessione",
     "Connection settings": "Impostazioni di connessione",
     "Enabled": "Abilitato",
+    "Main": "Principale",
+    "Message": "Messaggio",
+    "MessageFontSize": "MessageFontSize",
+    "MessageLeft": "Messaggio a sinistra",
+    "MessageTop": "Messaggio in alto",
+    "Messages": "Messaggi",
     "Page": "Pagina",
-    "Pages": "Pagine"
+    "Pages": "Pagine",
+    "Speak": "Parlare",
+    "Style": "Stile",
+    "Time": "Volta",
+    "WebColor": "WebColor",
+    "Zoom": "Ingrandisci"
 }

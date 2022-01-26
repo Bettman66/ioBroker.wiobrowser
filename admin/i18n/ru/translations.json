@@ -1,7 +1,20 @@
 {
+    "Caption": "Подпись",
+    "Color": "Цвет",
     "Connection": "соединение",
     "Connection settings": "Настройки соединения",
     "Enabled": "Включено",
+    "Main": "Главный",
+    "Message": "Сообщение",
+    "MessageFontSize": "размер шрифта сообщения",
+    "MessageLeft": "СообщениеОставлено",
+    "MessageTop": "MessageTop",
+    "Messages": "Сообщения",
     "Page": "Страница",
-    "Pages": "Страницы"
+    "Pages": "Страницы",
+    "Speak": "Разговаривать",
+    "Style": "Стиль",
+    "Time": "Время",
+    "WebColor": "ВебЦвет",
+    "Zoom": "Увеличить"
 }

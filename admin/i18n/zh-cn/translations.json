@@ -1,7 +1,20 @@
 {
+    "Caption": "标题",
+    "Color": "颜色",
     "Connection": "连接",
     "Connection settings": "连接设定",
     "Enabled": "启用",
+    "Main": "主要的",
+    "Message": "信息",
+    "MessageFontSize": "消息字体大小",
+    "MessageLeft": "留言左",
+    "MessageTop": "留言顶部",
+    "Messages": "留言",
     "Page": "页",
-    "Pages": "页面"
+    "Pages": "页面",
+    "Speak": "说话",
+    "Style": "风格",
+    "Time": "时间",
+    "WebColor": "网页颜色",
+    "Zoom": "飞涨"
 }

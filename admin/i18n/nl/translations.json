@@ -1,7 +1,20 @@
 {
+    "Caption": "Ondertiteling",
+    "Color": "Kleur",
     "Connection": "Verbinding",
     "Connection settings": "Verbindingsinstellingen",
     "Enabled": "Ingeschakeld",
+    "Main": "Voornaamst",
+    "Message": "Bericht",
+    "MessageFontSize": "BerichtLettergrootte",
+    "MessageLeft": "BerichtLinks",
+    "MessageTop": "BerichtTop",
+    "Messages": "Berichten",
     "Page": "Bladzijde",
-    "Pages": "Pagina's"
+    "Pages": "Pagina's",
+    "Speak": "Spreken",
+    "Style": "Stijl",
+    "Time": "Tijd",
+    "WebColor": "WebKleur",
+    "Zoom": "Zoom"
 }

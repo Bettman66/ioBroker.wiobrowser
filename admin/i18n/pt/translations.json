@@ -1,7 +1,20 @@
 {
+    "Caption": "Rubrica",
+    "Color": "Cor",
     "Connection": "Conexão",
     "Connection settings": "Configurações de conexão",
     "Enabled": "Habilitado",
+    "Main": "Principal",
+    "Message": "Mensagem",
+    "MessageFontSize": "MessageFontSize",
+    "MessageLeft": "MensagemEsquerda",
+    "MessageTop": "Topo da mensagem",
+    "Messages": "Mensagens",
     "Page": "Página",
-    "Pages": "Páginas"
+    "Pages": "Páginas",
+    "Speak": "Falar",
+    "Style": "Estilo",
+    "Time": "Tempo",
+    "WebColor": "WebColor",
+    "Zoom": "Ampliação"
 }

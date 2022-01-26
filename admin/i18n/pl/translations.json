@@ -1,7 +1,20 @@
 {
+    "Caption": "Podpis",
+    "Color": "Kolor",
     "Connection": "Połączenie",
     "Connection settings": "Ustawienia połączenia",
     "Enabled": "Włączony",
+    "Main": "Główny",
+    "Message": "Wiadomość",
+    "MessageFontSize": "Rozmiar czcionki wiadomości",
+    "MessageLeft": "Wiadomość w lewo",
+    "MessageTop": "WiadomośćDo góry",
+    "Messages": "Wiadomości",
     "Page": "Strona",
-    "Pages": "Strony"
+    "Pages": "Strony",
+    "Speak": "Mówić",
+    "Style": "Styl",
+    "Time": "Czas",
+    "WebColor": "WebColor",
+    "Zoom": "Powiększenie"
 }

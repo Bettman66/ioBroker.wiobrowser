@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.2.7",
+        "version": "0.3.0",
         "news": {
+            "0.3.0": {
+                "en": "bugfix port",
+                "de": "Bugfix-Port",
+                "ru": "порт исправления ошибок",
+                "pt": "porta de correção de bug",
+                "nl": "bugfix-poort",
+                "fr": "port de correction de bogues",
+                "it": "porta bugfix",
+                "es": "puerto de corrección de errores",
+                "pl": "port naprawiania błędów",
+                "zh-cn": "错误修复端口"
+            },
             "0.2.7": {
                 "en": "add hostname",
                 "de": "Hostnamen hinzufügen",
@@ -501,7 +513,7 @@
                 "name": "battery",
                 "desc": "battery capacity",
                 "type": "number",
-                "role": "value.capacity",
+                "role": "value.battery",
                 "read": true,
                 "write": false,
                 "def": 100,

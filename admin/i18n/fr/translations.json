@@ -1,7 +1,20 @@
 {
+    "Caption": "Légende",
+    "Color": "Couleur",
     "Connection": "Connexion",
     "Connection settings": "Paramètres de connexion",
     "Enabled": "Activée",
+    "Main": "Principale",
+    "Message": "Message",
+    "MessageFontSize": "MessageFontSizeMessageFontSize",
+    "MessageLeft": "MessageGauche",
+    "MessageTop": "MessageTop",
+    "Messages": "messages",
     "Page": "Page",
-    "Pages": "Pages"
+    "Pages": "Pages",
+    "Speak": "Parlez",
+    "Style": "Style",
+    "Time": "Temps",
+    "WebColor": "Couleur Web",
+    "Zoom": "Zoom"
 }

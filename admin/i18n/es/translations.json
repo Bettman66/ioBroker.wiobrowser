@@ -1,7 +1,20 @@
 {
+    "Caption": "Subtítulo",
+    "Color": "Color",
     "Connection": "Conexión",
     "Connection settings": "Configuraciones de conexión",
     "Enabled": "Activado",
+    "Main": "Principal",
+    "Message": "Mensaje",
+    "MessageFontSize": "Tamaño de fuente del mensaje",
+    "MessageLeft": "Mensaje a la izquierda",
+    "MessageTop": "MensajeTop",
+    "Messages": "Mensajes",
     "Page": "Página",
-    "Pages": "Paginas"
+    "Pages": "Paginas",
+    "Speak": "Hablar",
+    "Style": "Estilo",
+    "Time": "Hora",
+    "WebColor": "WebColor",
+    "Zoom": "Zoom"
 }
