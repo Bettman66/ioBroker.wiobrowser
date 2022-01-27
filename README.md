@@ -37,12 +37,12 @@ Text and voice messages can be sent to the device.
 The wioNoweb app does the same except for the web functions.
 
 ***
-Dieser Adapter verbindet sich über tcp.socket mit dem wioBrowser, um ihn zu steuern. Es gibt 3 unterschiedliche wioBrowser Apps :
+Dieser Adapter verbindet sich über tcp.socket mit dem wioBrowser, um ihn zu steuern. Es gibt 3 unterschiedliche wioBrowser Apps:
 + wioBrowser WebView2 Framework
 + wioBrowser Chromium Framework
 + wioNoweb
 
-wioBrowser ist ein Windows Fullscreen Browser der sich über ioBroker steuern lässt, er zeigt einzelne Webseiten an oder eine Webseiten Slideshow die man im Adapter einstellen kann. Es werden auch Infos an den Adapter übertragen :
+wioBrowser ist ein Windows Fullscreen Browser der sich über ioBroker steuern lässt, er zeigt einzelne Webseiten an oder eine Webseiten Slideshow die man im Adapter einstellen kann. Es werden auch Infos an den Adapter übertragen:
 + CPU Last 
 + freier Speicher
 + aktuelle Batterieentladung bei Tablet oder Notebook
