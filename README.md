@@ -59,7 +59,7 @@ Er kann auch steuern:
 
 Es können Text und Sprach Nachrichten an das Gerät gesendet werden.
 
-Die App wioNoweb macht das auch bis auf die Webfunktionen.
+Die App wioNoweb kann das auch bis auf die Webfunktionen.
 
 
 ## Link
