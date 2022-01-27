@@ -63,7 +63,8 @@ Die App wioNoweb das auch bis auf die Webfunktionen.
 
 
 ## Link
-* https://forum.iobroker.net/topic/50982/neuer-adapter-wiobrowser-f%C3%BCr-windows
+* [ioBroker Forum Adapter Thread](https://forum.iobroker.net/topic/50982/neuer-adapter-wiobrowser-f%C3%BCr-windows)
+* [Tutorial über die Messages](https://forum.iobroker.net/topic/51534/tutorial-wiobrowser-windows-desktop-popup-messages) vom User @hydrotec
 
 ## Changelog
 ### 0.3.0
