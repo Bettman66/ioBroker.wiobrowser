@@ -3,7 +3,6 @@
 
 ![Number of Installations](http://iobroker.live/badges/wiobrowser-installed.svg)
 ![Number of Installations](http://iobroker.live/badges/wiobrowser-stable.svg)
-[![Build Status](https://travis-ci.org/Bettman66/ioBroker.wiobrowser.svg?branch=master)](https://travis-ci.org/Bettman66/ioBroker.wiobrowser)
 [![NPM version](http://img.shields.io/npm/v/iobroker.wiobrowser.svg)](https://www.npmjs.com/package/iobroker.wiobrowser)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.wiobrowser.svg)](https://www.npmjs.com/package/iobroker.wiobrowser)
 [![NPM](https://nodei.co/npm/iobroker.wiobrowser.png?downloads=true)](https://nodei.co/npm/iobroker.wiobrowser/)
@@ -64,9 +63,12 @@ Die App wioNoweb kann das auch bis auf die Webfunktionen.
 
 ## Link
 * [ioBroker Forum Adapter Thread](https://forum.iobroker.net/topic/50982/neuer-adapter-wiobrowser-f%C3%BCr-windows)
-* [Tutorial über die Messages](https://forum.iobroker.net/topic/51534/tutorial-wiobrowser-windows-desktop-popup-messages) vom User @hydrotec
+* [Tutorial über die Messages](https://forum.iobroker.net/topic/51534/tutorial-wiobrowser-windows-desktop-popup-messages) vom User hydrotec
 
 ## Changelog
+### 1.0.0
+* (bettman66) stable
+
 ### 0.3.0
 * (bettman66) bugfix port
 

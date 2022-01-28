@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "0.3.0",
+        "version": "1.0.0",
         "news": {
+            "1.0.0": {
+                "en": "stable",
+                "de": "stabil",
+                "ru": "стабильный",
+                "pt": "estábulo",
+                "nl": "stal",
+                "fr": "stable",
+                "it": "stabile",
+                "es": "estable",
+                "pl": "stabilny",
+                "zh-cn": "稳定的"
+            },
             "0.3.0": {
                 "en": "bugfix port",
                 "de": "Bugfix-Port",
