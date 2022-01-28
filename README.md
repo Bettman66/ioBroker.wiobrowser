@@ -66,6 +66,9 @@ Die App wioNoweb kann das auch bis auf die Webfunktionen.
 * [Tutorial über die Messages](https://forum.iobroker.net/topic/51534/tutorial-wiobrowser-windows-desktop-popup-messages) vom User hydrotec
 
 ## Changelog
+### 1.1.0
+* (bettman66) window transparency
+
 ### 1.0.0
 * (bettman66) stable
 

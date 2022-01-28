@@ -2,10 +2,14 @@
     "Caption": "Caption",
     "Color": "Color",
     "Connection": "Connection",
+    "Connection Settings": "Connection Settings",
     "Connection settings": "Connection settings",
     "Enabled": "Enabled",
     "Main": "Main",
     "Message": "Message",
+    "Message Fontsize": "Message Fontsize",
+    "Message Left": "Message Left",
+    "Message Top": "Message Top",
     "MessageFontSize": "MessageFontSize",
     "MessageLeft": "MessageLeft",
     "MessageTop": "MessageTop",
@@ -15,6 +19,8 @@
     "Speak": "Speak",
     "Style": "Style",
     "Time": "Time",
+    "Web Color": "Web Color",
     "WebColor": "WebColor",
+    "Window Transparency": "Window Transparency",
     "Zoom": "Zoom"
 }

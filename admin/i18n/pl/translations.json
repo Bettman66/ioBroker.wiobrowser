@@ -2,10 +2,14 @@
     "Caption": "Podpis",
     "Color": "Kolor",
     "Connection": "Połączenie",
+    "Connection Settings": "Ustawienia połączenia",
     "Connection settings": "Ustawienia połączenia",
     "Enabled": "Włączony",
     "Main": "Główny",
     "Message": "Wiadomość",
+    "Message Fontsize": "Rozmiar czcionki wiadomości",
+    "Message Left": "Pozostała wiadomość",
+    "Message Top": "Wiadomość Góra",
     "MessageFontSize": "Rozmiar czcionki wiadomości",
     "MessageLeft": "Wiadomość w lewo",
     "MessageTop": "WiadomośćDo góry",
@@ -15,6 +19,8 @@
     "Speak": "Mówić",
     "Style": "Styl",
     "Time": "Czas",
+    "Web Color": "Kolor sieciowy",
     "WebColor": "WebColor",
+    "Window Transparency": "Przezroczystość okna",
     "Zoom": "Powiększenie"
 }

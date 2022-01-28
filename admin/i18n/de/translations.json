@@ -2,10 +2,14 @@
     "Caption": "Untertitel",
     "Color": "Farbe",
     "Connection": "Verbindung",
+    "Connection Settings": "Verbindungseinstellungen",
     "Connection settings": "Verbindungseinstellungen",
     "Enabled": "Ermöglicht",
     "Main": "Hauptsächlich",
     "Message": "Nachricht",
+    "Message Fontsize": "Schriftgröße der Nachricht",
+    "Message Left": "Nachricht hinterlassen",
+    "Message Top": "Nachricht oben",
     "MessageFontSize": "MessageFontSize",
     "MessageLeft": "NachrichtLinks",
     "MessageTop": "NachrichtTop",
@@ -15,6 +19,8 @@
     "Speak": "Sprechen",
     "Style": "Stil",
     "Time": "Zeit",
+    "Web Color": "Webfarbe",
     "WebColor": "WebColor",
+    "Window Transparency": "Fenstertransparenz",
     "Zoom": "Zoomen"
 }

@@ -2,10 +2,14 @@
     "Caption": "Légende",
     "Color": "Couleur",
     "Connection": "Connexion",
+    "Connection Settings": "Paramètres de connexion",
     "Connection settings": "Paramètres de connexion",
     "Enabled": "Activée",
     "Main": "Principale",
     "Message": "Message",
+    "Message Fontsize": "Taille de la police des messages",
+    "Message Left": "Message laissé",
+    "Message Top": "Haut des messages",
     "MessageFontSize": "MessageFontSizeMessageFontSize",
     "MessageLeft": "MessageGauche",
     "MessageTop": "MessageTop",
@@ -15,6 +19,8 @@
     "Speak": "Parlez",
     "Style": "Style",
     "Time": "Temps",
+    "Web Color": "Couleur Web",
     "WebColor": "Couleur Web",
+    "Window Transparency": "Transparence de la fenêtre",
     "Zoom": "Zoom"
 }

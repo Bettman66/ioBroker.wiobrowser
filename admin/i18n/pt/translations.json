@@ -2,10 +2,14 @@
     "Caption": "Rubrica",
     "Color": "Cor",
     "Connection": "Conexão",
+    "Connection Settings": "Configurações de conexão",
     "Connection settings": "Configurações de conexão",
     "Enabled": "Habilitado",
     "Main": "Principal",
     "Message": "Mensagem",
+    "Message Fontsize": "Tamanho da fonte da mensagem",
+    "Message Left": "Mensagem à esquerda",
+    "Message Top": "Topo da mensagem",
     "MessageFontSize": "MessageFontSize",
     "MessageLeft": "MensagemEsquerda",
     "MessageTop": "Topo da mensagem",
@@ -15,6 +19,8 @@
     "Speak": "Falar",
     "Style": "Estilo",
     "Time": "Tempo",
+    "Web Color": "Cor da Web",
     "WebColor": "WebColor",
+    "Window Transparency": "Transparência da janela",
     "Zoom": "Ampliação"
 }

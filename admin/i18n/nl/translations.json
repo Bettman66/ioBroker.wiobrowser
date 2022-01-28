@@ -2,10 +2,14 @@
     "Caption": "Ondertiteling",
     "Color": "Kleur",
     "Connection": "Verbinding",
+    "Connection Settings": "Verbindingsinstellingen",
     "Connection settings": "Verbindingsinstellingen",
     "Enabled": "Ingeschakeld",
     "Main": "Voornaamst",
     "Message": "Bericht",
+    "Message Fontsize": "Lettergrootte bericht",
+    "Message Left": "Bericht links",
+    "Message Top": "Bericht Top",
     "MessageFontSize": "BerichtLettergrootte",
     "MessageLeft": "BerichtLinks",
     "MessageTop": "BerichtTop",
@@ -15,6 +19,8 @@
     "Speak": "Spreken",
     "Style": "Stijl",
     "Time": "Tijd",
+    "Web Color": "Webkleur",
     "WebColor": "WebKleur",
+    "Window Transparency": "Raamtransparantie",
     "Zoom": "Zoom"
 }

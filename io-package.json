@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "news": {
+            "1.1.0": {
+                "en": "window transparency",
+                "de": "Fenstertransparenz",
+                "ru": "прозрачность окна",
+                "pt": "transparência da janela",
+                "nl": "venster transparantie",
+                "fr": "transparence de la fenêtre",
+                "it": "trasparenza della finestra",
+                "es": "transparencia de la ventana",
+                "pl": "przezroczystość okna",
+                "zh-cn": "窗口透明度"
+            },
             "1.0.0": {
                 "en": "stable",
                 "de": "stabil",
@@ -417,7 +429,8 @@
         "color": "#FF0004",
         "top": "0",
         "left": "0",
-        "font": "8"
+        "font": "8",
+        "transparency": "255"
     },
     "objects": [],
     "instanceObjects": [

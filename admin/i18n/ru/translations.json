@@ -2,10 +2,14 @@
     "Caption": "Подпись",
     "Color": "Цвет",
     "Connection": "соединение",
+    "Connection Settings": "Настройки соединения",
     "Connection settings": "Настройки соединения",
     "Enabled": "Включено",
     "Main": "Главный",
     "Message": "Сообщение",
+    "Message Fontsize": "Размер шрифта сообщения",
+    "Message Left": "Сообщение оставлено",
+    "Message Top": "Верх сообщения",
     "MessageFontSize": "размер шрифта сообщения",
     "MessageLeft": "СообщениеОставлено",
     "MessageTop": "MessageTop",
@@ -15,6 +19,8 @@
     "Speak": "Разговаривать",
     "Style": "Стиль",
     "Time": "Время",
+    "Web Color": "Веб-цвет",
     "WebColor": "ВебЦвет",
+    "Window Transparency": "Прозрачность окна",
     "Zoom": "Увеличить"
 }

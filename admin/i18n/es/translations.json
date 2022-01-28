@@ -2,10 +2,14 @@
     "Caption": "Subtítulo",
     "Color": "Color",
     "Connection": "Conexión",
+    "Connection Settings": "Configuración de conexión",
     "Connection settings": "Configuraciones de conexión",
     "Enabled": "Activado",
     "Main": "Principal",
     "Message": "Mensaje",
+    "Message Fontsize": "Tamaño de fuente del mensaje",
+    "Message Left": "Mensaje dejado",
+    "Message Top": "Parte superior del mensaje",
     "MessageFontSize": "Tamaño de fuente del mensaje",
     "MessageLeft": "Mensaje a la izquierda",
     "MessageTop": "MensajeTop",
@@ -15,6 +19,8 @@
     "Speak": "Hablar",
     "Style": "Estilo",
     "Time": "Hora",
+    "Web Color": "Color web",
     "WebColor": "WebColor",
+    "Window Transparency": "Transparencia de ventana",
     "Zoom": "Zoom"
 }

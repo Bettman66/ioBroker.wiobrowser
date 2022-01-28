@@ -2,10 +2,14 @@
     "Caption": "标题",
     "Color": "颜色",
     "Connection": "连接",
+    "Connection Settings": "连接设置",
     "Connection settings": "连接设定",
     "Enabled": "启用",
     "Main": "主要的",
     "Message": "信息",
+    "Message Fontsize": "消息字体大小",
+    "Message Left": "留言",
+    "Message Top": "留言顶部",
     "MessageFontSize": "消息字体大小",
     "MessageLeft": "留言左",
     "MessageTop": "留言顶部",
@@ -15,6 +19,8 @@
     "Speak": "说话",
     "Style": "风格",
     "Time": "时间",
+    "Web Color": "网页颜色",
     "WebColor": "网页颜色",
+    "Window Transparency": "窗口透明度",
     "Zoom": "飞涨"
 }

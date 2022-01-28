@@ -2,10 +2,14 @@
     "Caption": "Didascalia",
     "Color": "Colore",
     "Connection": "Connessione",
+    "Connection Settings": "Impostazioni di connessione",
     "Connection settings": "Impostazioni di connessione",
     "Enabled": "Abilitato",
     "Main": "Principale",
     "Message": "Messaggio",
+    "Message Fontsize": "Dimensione carattere messaggio",
+    "Message Left": "Messaggio lasciato",
+    "Message Top": "Messaggio in alto",
     "MessageFontSize": "MessageFontSize",
     "MessageLeft": "Messaggio a sinistra",
     "MessageTop": "Messaggio in alto",
@@ -15,6 +19,8 @@
     "Speak": "Parlare",
     "Style": "Stile",
     "Time": "Volta",
+    "Web Color": "Colore web",
     "WebColor": "WebColor",
+    "Window Transparency": "Trasparenza della finestra",
     "Zoom": "Ingrandisci"
 }
