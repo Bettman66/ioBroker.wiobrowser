@@ -61,6 +61,9 @@ Er kann auch steuern:
 * [Tutorial über die Messages](https://forum.iobroker.net/topic/51534/tutorial-wiobrowser-windows-desktop-popup-messages) vom User hydrotec
 
 ## Changelog
+### 1.1.2
+* (bettman66) translate
+
 ### 1.1.1
 * (bettman66) update readme
 

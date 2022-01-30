@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "1.1.1",
+        "version": "1.1.2",
         "news": {
+            "1.1.2": {
+                "en": "translate",
+                "de": "Übersetzen",
+                "ru": "перевести",
+                "pt": "traduzir",
+                "nl": "vertalen",
+                "fr": "Traduire",
+                "it": "tradurre",
+                "es": "traducir",
+                "pl": "Tłumaczyć",
+                "zh-cn": "翻译"
+            },
             "1.1.1": {
                 "en": "update readme",
                 "de": "Readme aktualisieren",
