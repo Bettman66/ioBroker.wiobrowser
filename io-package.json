@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "1.1.2",
+        "version": "1.1.4",
         "news": {
+            "1.1.4": {
+                "en": "play audiofile",
+                "de": "Audiodatei abspielen",
+                "ru": "воспроизвести аудиофайл",
+                "pt": "reproduzir arquivo de áudio",
+                "nl": "audiobestand afspelen",
+                "fr": "lire le fichier audio",
+                "it": "riprodurre file audio",
+                "es": "reproducir archivo de audio",
+                "pl": "odtwórz plik audio",
+                "zh-cn": "播放音频文件"
+            },
             "1.1.2": {
                 "en": "translate",
                 "de": "Übersetzen",
@@ -322,6 +334,20 @@
             "common": {
                 "name": "command",
                 "desc": "send Command to Browser",
+                "type": "string",
+                "role": "text",
+                "read": true,
+                "write": true,
+                "def": ""
+            },
+            "native": {}
+        },
+        {
+            "_id": "audio.play",
+            "type": "state",
+            "common": {
+                "name": "play",
+                "desc": "play audiofile",
                 "type": "string",
                 "role": "text",
                 "read": true,
