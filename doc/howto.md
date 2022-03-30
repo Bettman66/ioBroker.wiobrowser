@@ -25,5 +25,6 @@ Er kann auch steuern:
 + Programme mit Schaltern ausführen z.B C:\ClickMonitorDDC\ClickMonitorDDC_7_2.exe b 100
 + Text Nachrichten
 + Sprach Nachrichten
++ Audiofiles abspielen
 
 ## Links
