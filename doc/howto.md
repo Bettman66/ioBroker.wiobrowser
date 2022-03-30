@@ -6,6 +6,7 @@ Dieser Adapter verbindet sich 체ber tcp.socket mit dem wioBrowser, um ihn zu ste
 + wioBrowser WebView2 Framework
 + wioBrowser Chromium Framework
 + wioNoweb (Gleiche Funktionen ohne Web)
+
 wioBrowser ist ein Windows Fullscreen Browser der sich 체ber ioBroker steuern l채sst, er zeigt einzelne Webseiten an oder eine Webseiten Slideshow die man im Adapter einstellen kann. Es werden auch Infos an den Adapter 체bertragen:
 
 + CPU Last
@@ -13,7 +14,8 @@ wioBrowser ist ein Windows Fullscreen Browser der sich 체ber ioBroker steuern l�
 + aktuelle Batterieentladung bei Tablet oder Notebook
 + Hostname
 + IP
-+ Er kann auch steuern:
+
+Er kann auch steuern:
 
 + Bildschirm an/aus
 + App beenden
