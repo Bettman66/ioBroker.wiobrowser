@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "1.1.4",
+        "version": "2.0.0",
         "news": {
+            "2.0.0": {
+                "en": "add sip",
+                "de": "Sip hinzugefügt",
+                "ru": "добавить глоток",
+                "pt": "adicionar gole",
+                "nl": "voeg slok toe",
+                "fr": "ajouter une gorgée",
+                "it": "aggiungi un sorso",
+                "es": "añadir sorbo",
+                "pl": "dodaj łyk",
+                "zh-cn": "加一口"
+            },
             "1.1.4": {
                 "en": "play audiofile",
                 "de": "Audiodatei abspielen",
@@ -180,6 +192,48 @@
             "native": {}
         },
         {
+            "_id": "sip.call",
+            "type": "state",
+            "common": {
+                "name": "call",
+                "desc": "sip call active",
+                "type": "boolean",
+                "role": "switch",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "sip.ring",
+            "type": "state",
+            "common": {
+                "name": "ring",
+                "desc": "sip ring active",
+                "type": "boolean",
+                "role": "switch",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "sip.hungup",
+            "type": "state",
+            "common": {
+                "name": "hungup",
+                "desc": "sip hungup",
+                "type": "boolean",
+                "role": "switch",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        },
+        {
             "_id": "info.ip",
             "type": "state",
             "common": {
@@ -298,7 +352,7 @@
             "native": {}
         },
         {
-            "_id": "volume",
+            "_id": "audio.volume",
             "type": "state",
             "common": {
                 "name": "volume",
@@ -315,7 +369,7 @@
             "native": {}
         },
         {
-            "_id": "mute",
+            "_id": "audio.mute",
             "type": "state",
             "common": {
                 "role": "switch",

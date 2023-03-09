@@ -1,9 +1,8 @@
 ![Logo](../admin/wiobrowser.png)
 # ioBroker.wiobrowser
 
-Dieser Adapter verbindet sich über tcp.socket mit dem wioBrowser, um ihn zu steuern. Es gibt 3 unterschiedliche wioBrowser Apps:
+Dieser Adapter verbindet sich über tcp.socket mit dem wioBrowser, um ihn zu steuern. Es gibt 2 unterschiedliche wioBrowser Apps:
 
-+ wioBrowser WebView2 Framework
 + wioBrowser Chromium Framework
 + wioNoweb (Gleiche Funktionen ohne Web)
 
@@ -17,6 +16,7 @@ wioBrowser ist ein Windows Fullscreen Browser der sich über ioBroker steuern l�
 
 Er kann auch steuern:
 
++ Sip Client
 + Bildschirm an/aus
 + App beenden
 + Lautstärke +/-
