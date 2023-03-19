@@ -2,7 +2,7 @@
  *
  *      ioBroker wioBrowser Adapter
  *
- *      (c) 2022 bettman66<w.zengel@gmx.de>
+ *      (c) 2023 bettman66<w.zengel@gmx.de>
  *
  *      MIT License
  *

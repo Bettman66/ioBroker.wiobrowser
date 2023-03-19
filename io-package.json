@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "2.0.0",
+        "version": "2.0.1",
         "news": {
+            "2.0.1": {
+                "en": "add more objects",
+                "de": "weitere Objekte hinzufügen",
+                "ru": "добавить больше объектов",
+                "pt": "adicionar mais objetos",
+                "nl": "meer objecten toevoegen",
+                "fr": "ajouter plus d'objets",
+                "it": "aggiungere altri oggetti",
+                "es": "añadir más objetos",
+                "pl": "dodaj więcej obiektów",
+                "zh-cn": "添加更多对象"
+            },
             "2.0.0": {
                 "en": "add sip",
                 "de": "Sip hinzugefügt",
@@ -307,7 +319,7 @@
             "native": {}
         },
         {
-            "_id": "screenon",
+            "_id": "system.screenon",
             "type": "state",
             "common": {
                 "role": "switch",
@@ -321,7 +333,7 @@
             "native": {}
         },
         {
-            "_id": "screenoff",
+            "_id": "system.screenoff",
             "type": "state",
             "common": {
                 "role": "switch",
@@ -335,7 +347,7 @@
             "native": {}
         },
         {
-            "_id": "brightness",
+            "_id": "system.brightness",
             "type": "state",
             "common": {
                 "name": "brightness",
@@ -495,12 +507,68 @@
             "native": {}
         },
         {
-            "_id": "close",
+            "_id": "system.close",
             "type": "state",
             "common": {
                 "role": "value",
                 "name": "close",
                 "desc": "Close wioBrowser",
+                "type": "boolean",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "system.reboot",
+            "type": "state",
+            "common": {
+                "role": "value",
+                "name": "reboot",
+                "desc": "reboot Device",
+                "type": "boolean",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "system.shutdown",
+            "type": "state",
+            "common": {
+                "role": "value",
+                "name": "shutdown",
+                "desc": "shutdown Device",
+                "type": "boolean",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "system.startmenu",
+            "type": "state",
+            "common": {
+                "role": "value",
+                "name": "startmenu",
+                "desc": "Show Startmenu",
+                "type": "boolean",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "system.screensaver",
+            "type": "state",
+            "common": {
+                "role": "value",
+                "name": "screensaver",
+                "desc": "Start Screensaver",
                 "type": "boolean",
                 "read": true,
                 "write": true,
