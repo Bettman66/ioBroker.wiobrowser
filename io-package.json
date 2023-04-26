@@ -13,7 +13,8 @@
                 "it": "aggiungere altri oggetti",
                 "es": "añadir más objetos",
                 "pl": "dodaj więcej obiektów",
-                "zh-cn": "添加更多对象"
+                "zh-cn": "添加更多对象",
+                "uk": "додати більше об'єктів"
             },
             "2.0.0": {
                 "en": "add sip",
@@ -25,7 +26,8 @@
                 "it": "aggiungi un sorso",
                 "es": "añadir sorbo",
                 "pl": "dodaj łyk",
-                "zh-cn": "加一口"
+                "zh-cn": "加一口",
+                "uk": "додати ковток"
             },
             "1.1.4": {
                 "en": "play audiofile",
@@ -37,7 +39,8 @@
                 "it": "riprodurre file audio",
                 "es": "reproducir archivo de audio",
                 "pl": "odtwórz plik audio",
-                "zh-cn": "播放音频文件"
+                "zh-cn": "播放音频文件",
+                "uk": "відтворити аудіофайл"
             },
             "1.1.2": {
                 "en": "translate",
@@ -49,7 +52,8 @@
                 "it": "tradurre",
                 "es": "traducir",
                 "pl": "Tłumaczyć",
-                "zh-cn": "翻译"
+                "zh-cn": "翻译",
+                "uk": "перекладати"
             },
             "1.1.1": {
                 "en": "update readme",
@@ -61,7 +65,8 @@
                 "it": "aggiorna il readme",
                 "es": "actualizar Léame",
                 "pl": "zaktualizuj plik readme",
-                "zh-cn": "更新自述文件"
+                "zh-cn": "更新自述文件",
+                "uk": "оновити readme"
             }
         },
         "titleLang": {
@@ -74,7 +79,8 @@
             "it": "wioBrowser",
             "es": "wioBrowser",
             "pl": "wioBrowser",
-            "zh-cn": "浏览器"
+            "zh-cn": "浏览器",
+            "uk": "wioBrowser"
         },
         "desc": {
             "en": "remote Fullscreenbrowser",
@@ -86,7 +92,8 @@
             "it": "browser a schermo intero remoto",
             "es": "navegador de pantalla completa remoto",
             "pl": "zdalna przeglądarka pełnoekranowa",
-            "zh-cn": "远程全屏浏览器"
+            "zh-cn": "远程全屏浏览器",
+            "uk": "віддалений повноекранний браузер"
         },
         "authors": [
             "bettman66 <w.zengel@gmx.de>",
