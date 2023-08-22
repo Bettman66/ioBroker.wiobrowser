@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "wiobrowser",
-        "version": "2.0.1",
+        "version": "2.0.2",
         "news": {
+            "2.0.2": {
+                "en": "add sip action objects",
+                "de": "SIP-Aktionsobjekte hinzufügen",
+                "ru": "добавить объекты действия sip",
+                "pt": "adicionar objetos de ação sip",
+                "nl": "voeg sip-actieobjecten toe",
+                "fr": "ajouter des objets d'action sip",
+                "it": "aggiungi oggetti azione sorso",
+                "es": "agregar objetos de acción sorber",
+                "pl": "dodaj obiekty akcji popijania",
+                "uk": "додати об’єкти дії sip",
+                "zh-cn": "添加 sip 操作对象"
+            },
             "2.0.1": {
                 "en": "add more objects",
                 "de": "weitere Objekte hinzufügen",
@@ -247,6 +260,62 @@
                 "role": "switch",
                 "read": true,
                 "write": false,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "sip.action.hungup",
+            "type": "state",
+            "common": {
+                "name": "hungup",
+                "desc": "hungup",
+                "type": "boolean",
+                "role": "switch",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "sip.action.answer",
+            "type": "state",
+            "common": {
+                "name": "answer",
+                "desc": "answer",
+                "type": "boolean",
+                "role": "switch",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "sip.action.dooropen",
+            "type": "state",
+            "common": {
+                "name": "dooropen",
+                "desc": "dooropen",
+                "type": "boolean",
+                "role": "switch",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "sip.action.videooff",
+            "type": "state",
+            "common": {
+                "name": "videooff",
+                "desc": "videooff",
+                "type": "boolean",
+                "role": "switch",
+                "read": true,
+                "write": true,
                 "def": false
             },
             "native": {}

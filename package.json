@@ -1,6 +1,6 @@
 {
   "name": "iobroker.wiobrowser",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "wiobrowser",
   "author": "bettman66 <w.zengel@gmx.de>",
   "contributors": [
@@ -58,7 +58,8 @@
   "main": "main.js",
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha --exit",
-    "release": "release-script"
+    "release": "release-script",
+    "translate": "translate-adapter"
   },
   "bugs": {
     "url": "https://github.com/Bettman66/ioBroker.wiobrowser/issues"
