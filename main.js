@@ -12,8 +12,8 @@
 
 const utils = require('@iobroker/adapter-core'); // Get common adapter utils
 const adapterName = require('./package.json').name.split('.').pop();
-const Client      = require('./lib/client');
-let   client      = null;
+const Client = require('./lib/client');
+let client = null;
 let adapter;
 
 function startAdapter(options) {
@@ -33,7 +33,7 @@ function startAdapter(options) {
 
     adapter.on('stateChange', (id, state) => {
         if (state && !state.ack) {
-           client.onStateChange(id, state);
+            client.onStateChange(id, state);
         }
     });
     return adapter;
