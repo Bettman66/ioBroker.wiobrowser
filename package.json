@@ -19,7 +19,7 @@
     "url": "git+https://github.com/Bettman66/ioBroker.wiobrowser.git"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=16"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^3.0.3",
