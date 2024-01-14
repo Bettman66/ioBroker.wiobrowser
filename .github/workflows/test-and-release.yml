@@ -37,12 +37,12 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: React build
-        run: |
-          cd src
-          npm install -f
-          cd ..
-          npm run build
+#      - name: React build
+#        run: |
+#          cd src
+#          npm install -f
+#          cd ..
+#          npm run build
 
 #      - name: Perform a type check
 #        run: npm run check:ts
@@ -80,12 +80,12 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: React build
-        run: |
-          cd src
-          npm install -f
-          cd ..
-          npm run build
+  #    - name: React build
+  #      run: |
+  #        cd src
+  #        npm install -f
+  #        cd ..
+  #        npm run build
 
       - name: Local tests
         if: startsWith(runner.OS, 'linux')
@@ -138,12 +138,12 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: React build
-        run: |
-          cd src
-          npm install -f
-          cd ..
-          npm run build
+ #     - name: React build
+ #       run: |
+ #         cd src
+ #         npm install -f
+ #         cd ..
+ #         npm run build
 
       - name: Publish package to npm
         run: |
