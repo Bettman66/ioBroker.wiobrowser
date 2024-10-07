@@ -67,19 +67,6 @@
                 "pl": "Tłumaczyć",
                 "zh-cn": "翻译",
                 "uk": "перекладати"
-            },
-            "1.1.1": {
-                "en": "update readme",
-                "de": "Readme aktualisieren",
-                "ru": "обновить ридми",
-                "pt": "atualize o leia-me",
-                "nl": "update leesmij",
-                "fr": "mettre à jour le fichier lisez-moi",
-                "it": "aggiorna il readme",
-                "es": "actualizar Léame",
-                "pl": "zaktualizuj plik readme",
-                "zh-cn": "更新自述文件",
-                "uk": "оновити readme"
             }
         },
         "titleLang": {
