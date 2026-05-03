@@ -63,6 +63,8 @@ He can also control:
 ### 1.0.0
 * (bettman66) stable
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 The MIT License (MIT)
 
