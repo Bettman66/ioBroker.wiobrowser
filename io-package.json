@@ -1,649 +1,648 @@
 {
-    "common": {
-        "name": "wiobrowser",
-        "version": "2.0.2",
-        "news": {
-            "2.0.2": {
-                "en": "add sip action objects",
-                "de": "SIP-Aktionsobjekte hinzufügen",
-                "ru": "добавить объекты действия sip",
-                "pt": "adicionar objetos de ação sip",
-                "nl": "voeg sip-actieobjecten toe",
-                "fr": "ajouter des objets d'action sip",
-                "it": "aggiungi oggetti azione sorso",
-                "es": "agregar objetos de acción sorber",
-                "pl": "dodaj obiekty akcji popijania",
-                "uk": "додати об’єкти дії sip",
-                "zh-cn": "添加 sip 操作对象"
-            },
-            "2.0.1": {
-                "en": "add more objects",
-                "de": "weitere Objekte hinzufügen",
-                "ru": "добавить больше объектов",
-                "pt": "adicionar mais objetos",
-                "nl": "meer objecten toevoegen",
-                "fr": "ajouter plus d'objets",
-                "it": "aggiungere altri oggetti",
-                "es": "añadir más objetos",
-                "pl": "dodaj więcej obiektów",
-                "zh-cn": "添加更多对象",
-                "uk": "додати більше об'єктів"
-            },
-            "2.0.0": {
-                "en": "add sip",
-                "de": "Sip hinzugefügt",
-                "ru": "добавить глоток",
-                "pt": "adicionar gole",
-                "nl": "voeg slok toe",
-                "fr": "ajouter une gorgée",
-                "it": "aggiungi un sorso",
-                "es": "añadir sorbo",
-                "pl": "dodaj łyk",
-                "zh-cn": "加一口",
-                "uk": "додати ковток"
-            },
-            "1.1.4": {
-                "en": "play audiofile",
-                "de": "Audiodatei abspielen",
-                "ru": "воспроизвести аудиофайл",
-                "pt": "reproduzir arquivo de áudio",
-                "nl": "audiobestand afspelen",
-                "fr": "lire le fichier audio",
-                "it": "riprodurre file audio",
-                "es": "reproducir archivo de audio",
-                "pl": "odtwórz plik audio",
-                "zh-cn": "播放音频文件",
-                "uk": "відтворити аудіофайл"
-            },
-            "1.1.2": {
-                "en": "translate",
-                "de": "Übersetzen",
-                "ru": "перевести",
-                "pt": "traduzir",
-                "nl": "vertalen",
-                "fr": "Traduire",
-                "it": "tradurre",
-                "es": "traducir",
-                "pl": "Tłumaczyć",
-                "zh-cn": "翻译",
-                "uk": "перекладати"
-            }
-        },
-        "titleLang": {
-            "en": "wioBrowser",
-            "de": "wioBrowser",
-            "ru": "wioBrowser",
-            "pt": "wioBrowser",
-            "nl": "wioBrowser",
-            "fr": "Navigateur wio",
-            "it": "wioBrowser",
-            "es": "wioBrowser",
-            "pl": "wioBrowser",
-            "zh-cn": "浏览器",
-            "uk": "wioBrowser"
-        },
-        "desc": {
-            "en": "remote Fullscreenbrowser",
-            "de": "Remote-Vollbildbrowser",
-            "ru": "удаленный полноэкранный браузер",
-            "pt": "Fullscreenbrowser remoto",
-            "nl": "afstandsbediening Volledig scherm",
-            "fr": "navigateur plein écran à distance",
-            "it": "browser a schermo intero remoto",
-            "es": "navegador de pantalla completa remoto",
-            "pl": "zdalna przeglądarka pełnoekranowa",
-            "zh-cn": "远程全屏浏览器",
-            "uk": "віддалений повноекранний браузер"
-        },
-        "authors": [
-            "bettman66 <w.zengel@gmx.de>",
-            "bluefox <dogafox@gmail.com>"
-        ],
-        "docs": {},
-        "platform": "Javascript/Node.js",
-        "mode": "daemon",
-        "icon": "wiobrowser.png",
-        "materialize": true,
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/Bettman66/ioBroker.wiobrowser/master/admin/wiobrowser.png",
-        "keywords": [
-            "wiobrowser",
-            "fullscreenbrowser",
-            "tcp socket"
-        ],
-        "readme": "https://github.com/Bettman66/ioBroker.wiobrowser/blob/master/README.md",
-        "loglevel": "info",
-        "type": "communication",
-        "adminUI": {
-            "config": "materialize"
-        },
-        "connectionType": "local",
-        "dataSource": "push",
-        "tier": 1,
-        "licenseInformation": {
-            "license": "MIT",
-            "type": "free"
-        },
-        "compact": true,
-        "globalDependencies": [
-            {
-                "admin": ">=5.0.19"
-            }
-        ],
-        "dependencies": [
-            {
-                "js-controller": ">=5.0.19"
-            }
-        ]
+  "common": {
+    "name": "wiobrowser",
+    "version": "2.0.2",
+    "news": {
+      "2.0.2": {
+        "en": "add sip action objects",
+        "de": "SIP-Aktionsobjekte hinzufügen",
+        "ru": "добавить объекты действия sip",
+        "pt": "adicionar objetos de ação sip",
+        "nl": "voeg sip-actieobjecten toe",
+        "fr": "ajouter des objets d'action sip",
+        "it": "aggiungi oggetti azione sorso",
+        "es": "agregar objetos de acción sorber",
+        "pl": "dodaj obiekty akcji popijania",
+        "uk": "додати об’єкти дії sip",
+        "zh-cn": "添加 sip 操作对象"
+      },
+      "2.0.1": {
+        "en": "add more objects",
+        "de": "weitere Objekte hinzufügen",
+        "ru": "добавить больше объектов",
+        "pt": "adicionar mais objetos",
+        "nl": "meer objecten toevoegen",
+        "fr": "ajouter plus d'objets",
+        "it": "aggiungere altri oggetti",
+        "es": "añadir más objetos",
+        "pl": "dodaj więcej obiektów",
+        "zh-cn": "添加更多对象",
+        "uk": "додати більше об'єктів"
+      },
+      "2.0.0": {
+        "en": "add sip",
+        "de": "Sip hinzugefügt",
+        "ru": "добавить глоток",
+        "pt": "adicionar gole",
+        "nl": "voeg slok toe",
+        "fr": "ajouter une gorgée",
+        "it": "aggiungi un sorso",
+        "es": "añadir sorbo",
+        "pl": "dodaj łyk",
+        "zh-cn": "加一口",
+        "uk": "додати ковток"
+      },
+      "1.1.4": {
+        "en": "play audiofile",
+        "de": "Audiodatei abspielen",
+        "ru": "воспроизвести аудиофайл",
+        "pt": "reproduzir arquivo de áudio",
+        "nl": "audiobestand afspelen",
+        "fr": "lire le fichier audio",
+        "it": "riprodurre file audio",
+        "es": "reproducir archivo de audio",
+        "pl": "odtwórz plik audio",
+        "zh-cn": "播放音频文件",
+        "uk": "відтворити аудіофайл"
+      },
+      "1.1.2": {
+        "en": "translate",
+        "de": "Übersetzen",
+        "ru": "перевести",
+        "pt": "traduzir",
+        "nl": "vertalen",
+        "fr": "Traduire",
+        "it": "tradurre",
+        "es": "traducir",
+        "pl": "Tłumaczyć",
+        "zh-cn": "翻译",
+        "uk": "перекладати"
+      }
     },
-    "native": {
-        "url": "localhost",
-        "port": "5000",
-        "color": "#FF0004",
-        "top": "0",
-        "left": "0",
-        "font": "8",
-        "transparency": "255"
+    "titleLang": {
+      "en": "wioBrowser",
+      "de": "wioBrowser",
+      "ru": "wioBrowser",
+      "pt": "wioBrowser",
+      "nl": "wioBrowser",
+      "fr": "Navigateur wio",
+      "it": "wioBrowser",
+      "es": "wioBrowser",
+      "pl": "wioBrowser",
+      "zh-cn": "浏览器",
+      "uk": "wioBrowser"
     },
-    "objects": [],
-    "instanceObjects": [
-        {
-            "_id": "info.connection",
-            "type": "state",
-            "common": {
-                "role": "indicator.connected",
-                "name": "If connected to wioBrowser",
-                "type": "boolean",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "web.sendURL",
-            "type": "state",
-            "common": {
-                "name": "sendURL",
-                "desc": "send URL to Browser",
-                "type": "string",
-                "role": "text",
-                "read": true,
-                "write": true,
-                "def": "https://forum.iobroker.net/"
-            },
-            "native": {}
-        },
-        {
-            "_id": "web.receiveURL",
-            "type": "state",
-            "common": {
-                "name": "receiveURL",
-                "desc": "receive URL from Browser",
-                "type": "string",
-                "role": "text",
-                "read": true,
-                "write": false,
-                "def": ""
-            },
-            "native": {}
-        },
-        {
-            "_id": "web.zoom",
-            "type": "state",
-            "common": {
-                "name": "zoom",
-                "desc": "zoom webpage",
-                "type": "number",
-                "role": "value.zoom",
-                "read": true,
-                "write": true,
-                "def": 1
-            },
-            "native": {}
-        },
-        {
-            "_id": "web.slide",
-            "type": "state",
-            "common": {
-                "name": "slide",
-                "desc": "slideshow on/off",
-                "type": "boolean",
-                "role": "switch",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "sip.call",
-            "type": "state",
-            "common": {
-                "name": "call",
-                "desc": "sip call active",
-                "type": "boolean",
-                "role": "switch",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "sip.ring",
-            "type": "state",
-            "common": {
-                "name": "ring",
-                "desc": "sip ring active",
-                "type": "boolean",
-                "role": "switch",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "sip.hungup",
-            "type": "state",
-            "common": {
-                "name": "hungup",
-                "desc": "sip hungup",
-                "type": "boolean",
-                "role": "switch",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "sip.action.hungup",
-            "type": "state",
-            "common": {
-                "name": "hungup",
-                "desc": "hungup",
-                "type": "boolean",
-                "role": "switch",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "sip.action.answer",
-            "type": "state",
-            "common": {
-                "name": "answer",
-                "desc": "answer",
-                "type": "boolean",
-                "role": "switch",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "sip.action.dooropen",
-            "type": "state",
-            "common": {
-                "name": "dooropen",
-                "desc": "dooropen",
-                "type": "boolean",
-                "role": "switch",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "sip.action.videooff",
-            "type": "state",
-            "common": {
-                "name": "videooff",
-                "desc": "videooff",
-                "type": "boolean",
-                "role": "switch",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.ip",
-            "type": "state",
-            "common": {
-                "name": "ip",
-                "desc": "IP from Browser",
-                "type": "string",
-                "role": "text",
-                "read": true,
-                "write": false,
-                "def": ""
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.host",
-            "type": "state",
-            "common": {
-                "name": "host",
-                "desc": "Hostname from Browser",
-                "type": "string",
-                "role": "text",
-                "read": true,
-                "write": false,
-                "def": ""
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.battery",
-            "type": "state",
-            "common": {
-                "name": "battery",
-                "desc": "battery capacity",
-                "type": "number",
-                "role": "value.battery",
-                "read": true,
-                "write": false,
-                "def": 100,
-                "unit": "%"
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.cpu",
-            "type": "state",
-            "common": {
-                "name": "cpu",
-                "desc": "cpu prozesslast",
-                "type": "number",
-                "role": "value",
-                "read": true,
-                "write": false,
-                "def": 0,
-                "unit": "%"
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.memory",
-            "type": "state",
-            "common": {
-                "name": "memory",
-                "desc": "memory",
-                "type": "number",
-                "role": "value",
-                "read": true,
-                "write": false,
-                "def": 0,
-                "unit": "GB"
-            },
-            "native": {}
-        },
-        {
-            "_id": "system.screenon",
-            "type": "state",
-            "common": {
-                "role": "switch",
-                "name": "screenon",
-                "desc": "screen on",
-                "type": "boolean",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "system.screenoff",
-            "type": "state",
-            "common": {
-                "role": "switch",
-                "name": "screenoff",
-                "desc": "screen off",
-                "type": "boolean",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "system.brightness",
-            "type": "state",
-            "common": {
-                "name": "brightness",
-                "desc": "screen brightness",
-                "type": "number",
-                "role": "value.brightness",
-                "read": true,
-                "write": true,
-                "min": 0,
-                "max": 100,
-                "def": 100,
-                "unit": "%"
-            },
-            "native": {}
-        },
-        {
-            "_id": "audio.volume",
-            "type": "state",
-            "common": {
-                "name": "volume",
-                "desc": "Master Volume",
-                "type": "number",
-                "role": "value.volume",
-                "read": true,
-                "write": true,
-                "min": 0,
-                "max": 100,
-                "def": 25,
-                "unit": "%"
-            },
-            "native": {}
-        },
-        {
-            "_id": "audio.mute",
-            "type": "state",
-            "common": {
-                "role": "switch",
-                "name": "mute",
-                "desc": "mute",
-                "type": "boolean",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "command",
-            "type": "state",
-            "common": {
-                "name": "command",
-                "desc": "send Command to Browser",
-                "type": "string",
-                "role": "text",
-                "read": true,
-                "write": true,
-                "def": ""
-            },
-            "native": {}
-        },
-        {
-            "_id": "audio.play",
-            "type": "state",
-            "common": {
-                "name": "play",
-                "desc": "play audiofile",
-                "type": "string",
-                "role": "text",
-                "read": true,
-                "write": true,
-                "def": ""
-            },
-            "native": {}
-        },
-        {
-            "_id": "messages.message",
-            "type": "state",
-            "common": {
-                "name": "message",
-                "desc": "send Message to Browser",
-                "type": "string",
-                "role": "text",
-                "read": true,
-                "write": true,
-                "def": "Hallo"
-            },
-            "native": {}
-        },
-        {
-            "_id": "messages.texttospeech",
-            "type": "state",
-            "common": {
-                "name": "texttospeech",
-                "desc": "send tts to Browser",
-                "type": "string",
-                "role": "text",
-                "read": true,
-                "write": true,
-                "def": "Hallo"
-            },
-            "native": {}
-        },
-        {
-            "_id": "messages.speakmessage",
-            "type": "state",
-            "common": {
-                "name": "speakmessage",
-                "desc": "Speakmessage Number",
-                "type": "number",
-                "role": "value",
-                "read": true,
-                "write": true,
-                "def": 0
-            },
-            "native": {}
-        },
-        {
-            "_id": "messages.messagestyle",
-            "type": "state",
-            "common": {
-                "name": "messagestyle",
-                "desc": "Message Style",
-                "type": "number",
-                "role": "value",
-                "read": true,
-                "write": true,
-                "def": 0
-            },
-            "native": {}
-        },
-        {
-            "_id": "messages.messagenumber",
-            "type": "state",
-            "common": {
-                "name": "messagenumber",
-                "desc": "Message Number",
-                "type": "number",
-                "role": "value",
-                "read": true,
-                "write": true,
-                "def": 0
-            },
-            "native": {}
-        },
-        {
-            "_id": "web.error",
-            "type": "state",
-            "common": {
-                "role": "value",
-                "name": "error",
-                "desc": "Error",
-                "type": "boolean",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "system.close",
-            "type": "state",
-            "common": {
-                "role": "value",
-                "name": "close",
-                "desc": "Close wioBrowser",
-                "type": "boolean",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "system.reboot",
-            "type": "state",
-            "common": {
-                "role": "value",
-                "name": "reboot",
-                "desc": "reboot Device",
-                "type": "boolean",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "system.shutdown",
-            "type": "state",
-            "common": {
-                "role": "value",
-                "name": "shutdown",
-                "desc": "shutdown Device",
-                "type": "boolean",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "system.startmenu",
-            "type": "state",
-            "common": {
-                "role": "value",
-                "name": "startmenu",
-                "desc": "Show Startmenu",
-                "type": "boolean",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "system.screensaver",
-            "type": "state",
-            "common": {
-                "role": "value",
-                "name": "screensaver",
-                "desc": "Start Screensaver",
-                "type": "boolean",
-                "read": true,
-                "write": true,
-                "def": false
-            },
-            "native": {}
-        }
+    "desc": {
+      "en": "remote Fullscreenbrowser",
+      "de": "Remote-Vollbildbrowser",
+      "ru": "удаленный полноэкранный браузер",
+      "pt": "Fullscreenbrowser remoto",
+      "nl": "afstandsbediening Volledig scherm",
+      "fr": "navigateur plein écran à distance",
+      "it": "browser a schermo intero remoto",
+      "es": "navegador de pantalla completa remoto",
+      "pl": "zdalna przeglądarka pełnoekranowa",
+      "zh-cn": "远程全屏浏览器",
+      "uk": "віддалений повноекранний браузер"
+    },
+    "authors": [
+      "bettman66 <w.zengel@gmx.de>",
+      "bluefox <dogafox@gmail.com>"
+    ],
+    "docs": {},
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "icon": "wiobrowser.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/Bettman66/ioBroker.wiobrowser/master/admin/wiobrowser.png",
+    "keywords": [
+      "wiobrowser",
+      "fullscreenbrowser",
+      "tcp socket"
+    ],
+    "readme": "https://github.com/Bettman66/ioBroker.wiobrowser/blob/master/README.md",
+    "loglevel": "info",
+    "type": "communication",
+    "adminUI": {
+      "config": "materialize"
+    },
+    "connectionType": "local",
+    "dataSource": "push",
+    "tier": 1,
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
+    "compact": true,
+    "globalDependencies": [
+      {
+        "admin": ">=5.0.19"
+      }
+    ],
+    "dependencies": [
+      {
+        "js-controller": ">=5.0.19"
+      }
     ]
+  },
+  "native": {
+    "url": "localhost",
+    "port": "5000",
+    "color": "#FF0004",
+    "top": "0",
+    "left": "0",
+    "font": "8",
+    "transparency": "255"
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "If connected to wioBrowser",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "web.sendURL",
+      "type": "state",
+      "common": {
+        "name": "sendURL",
+        "desc": "send URL to Browser",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "write": true,
+        "def": "https://forum.iobroker.net/"
+      },
+      "native": {}
+    },
+    {
+      "_id": "web.receiveURL",
+      "type": "state",
+      "common": {
+        "name": "receiveURL",
+        "desc": "receive URL from Browser",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "write": false,
+        "def": ""
+      },
+      "native": {}
+    },
+    {
+      "_id": "web.zoom",
+      "type": "state",
+      "common": {
+        "name": "zoom",
+        "desc": "zoom webpage",
+        "type": "number",
+        "role": "value.zoom",
+        "read": true,
+        "write": true,
+        "def": 1
+      },
+      "native": {}
+    },
+    {
+      "_id": "web.slide",
+      "type": "state",
+      "common": {
+        "name": "slide",
+        "desc": "slideshow on/off",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "sip.call",
+      "type": "state",
+      "common": {
+        "name": "call",
+        "desc": "sip call active",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "sip.ring",
+      "type": "state",
+      "common": {
+        "name": "ring",
+        "desc": "sip ring active",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "sip.hungup",
+      "type": "state",
+      "common": {
+        "name": "hungup",
+        "desc": "sip hungup",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "sip.action.hungup",
+      "type": "state",
+      "common": {
+        "name": "hungup",
+        "desc": "hungup",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "sip.action.answer",
+      "type": "state",
+      "common": {
+        "name": "answer",
+        "desc": "answer",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "sip.action.dooropen",
+      "type": "state",
+      "common": {
+        "name": "dooropen",
+        "desc": "dooropen",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "sip.action.videooff",
+      "type": "state",
+      "common": {
+        "name": "videooff",
+        "desc": "videooff",
+        "type": "boolean",
+        "role": "switch",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.ip",
+      "type": "state",
+      "common": {
+        "name": "ip",
+        "desc": "IP from Browser",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "write": false,
+        "def": ""
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.host",
+      "type": "state",
+      "common": {
+        "name": "host",
+        "desc": "Hostname from Browser",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "write": false,
+        "def": ""
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.battery",
+      "type": "state",
+      "common": {
+        "name": "battery",
+        "desc": "battery capacity",
+        "type": "number",
+        "role": "value.battery",
+        "read": true,
+        "write": false,
+        "def": 100,
+        "unit": "%"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.cpu",
+      "type": "state",
+      "common": {
+        "name": "cpu",
+        "desc": "cpu prozesslast",
+        "type": "number",
+        "role": "value",
+        "read": true,
+        "write": false,
+        "def": 0,
+        "unit": "%"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.memory",
+      "type": "state",
+      "common": {
+        "name": "memory",
+        "desc": "memory",
+        "type": "number",
+        "role": "value",
+        "read": true,
+        "write": false,
+        "def": 0,
+        "unit": "GB"
+      },
+      "native": {}
+    },
+    {
+      "_id": "system.screenon",
+      "type": "state",
+      "common": {
+        "role": "switch",
+        "name": "screenon",
+        "desc": "screen on",
+        "type": "boolean",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "system.screenoff",
+      "type": "state",
+      "common": {
+        "role": "switch",
+        "name": "screenoff",
+        "desc": "screen off",
+        "type": "boolean",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "system.brightness",
+      "type": "state",
+      "common": {
+        "name": "brightness",
+        "desc": "screen brightness",
+        "type": "number",
+        "role": "value.brightness",
+        "read": true,
+        "write": true,
+        "min": 0,
+        "max": 100,
+        "def": 100,
+        "unit": "%"
+      },
+      "native": {}
+    },
+    {
+      "_id": "audio.volume",
+      "type": "state",
+      "common": {
+        "name": "volume",
+        "desc": "Master Volume",
+        "type": "number",
+        "role": "value.volume",
+        "read": true,
+        "write": true,
+        "min": 0,
+        "max": 100,
+        "def": 25,
+        "unit": "%"
+      },
+      "native": {}
+    },
+    {
+      "_id": "audio.mute",
+      "type": "state",
+      "common": {
+        "role": "switch",
+        "name": "mute",
+        "desc": "mute",
+        "type": "boolean",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "command",
+      "type": "state",
+      "common": {
+        "name": "command",
+        "desc": "send Command to Browser",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "write": true,
+        "def": ""
+      },
+      "native": {}
+    },
+    {
+      "_id": "audio.play",
+      "type": "state",
+      "common": {
+        "name": "play",
+        "desc": "play audiofile",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "write": true,
+        "def": ""
+      },
+      "native": {}
+    },
+    {
+      "_id": "messages.message",
+      "type": "state",
+      "common": {
+        "name": "message",
+        "desc": "send Message to Browser",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "write": true,
+        "def": "Hallo"
+      },
+      "native": {}
+    },
+    {
+      "_id": "messages.texttospeech",
+      "type": "state",
+      "common": {
+        "name": "texttospeech",
+        "desc": "send tts to Browser",
+        "type": "string",
+        "role": "text",
+        "read": true,
+        "write": true,
+        "def": "Hallo"
+      },
+      "native": {}
+    },
+    {
+      "_id": "messages.speakmessage",
+      "type": "state",
+      "common": {
+        "name": "speakmessage",
+        "desc": "Speakmessage Number",
+        "type": "number",
+        "role": "value",
+        "read": true,
+        "write": true,
+        "def": 0
+      },
+      "native": {}
+    },
+    {
+      "_id": "messages.messagestyle",
+      "type": "state",
+      "common": {
+        "name": "messagestyle",
+        "desc": "Message Style",
+        "type": "number",
+        "role": "value",
+        "read": true,
+        "write": true,
+        "def": 0
+      },
+      "native": {}
+    },
+    {
+      "_id": "messages.messagenumber",
+      "type": "state",
+      "common": {
+        "name": "messagenumber",
+        "desc": "Message Number",
+        "type": "number",
+        "role": "value",
+        "read": true,
+        "write": true,
+        "def": 0
+      },
+      "native": {}
+    },
+    {
+      "_id": "web.error",
+      "type": "state",
+      "common": {
+        "role": "value",
+        "name": "error",
+        "desc": "Error",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "system.close",
+      "type": "state",
+      "common": {
+        "role": "value",
+        "name": "close",
+        "desc": "Close wioBrowser",
+        "type": "boolean",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "system.reboot",
+      "type": "state",
+      "common": {
+        "role": "value",
+        "name": "reboot",
+        "desc": "reboot Device",
+        "type": "boolean",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "system.shutdown",
+      "type": "state",
+      "common": {
+        "role": "value",
+        "name": "shutdown",
+        "desc": "shutdown Device",
+        "type": "boolean",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "system.startmenu",
+      "type": "state",
+      "common": {
+        "role": "value",
+        "name": "startmenu",
+        "desc": "Show Startmenu",
+        "type": "boolean",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "system.screensaver",
+      "type": "state",
+      "common": {
+        "role": "value",
+        "name": "screensaver",
+        "desc": "Start Screensaver",
+        "type": "boolean",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
 }
