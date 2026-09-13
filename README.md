@@ -39,6 +39,9 @@ He can also control:
 * [Tutorial über die Messages](https://forum.iobroker.net/topic/51534/tutorial-wiobrowser-windows-desktop-popup-messages) by user hydrotec
 
 ## Changelog
+
+### **WORK IN PROGRESS**
+- (iobroker-bot) Adapter requires node.js >= 22 now.
 ### 2.0.2
 * (bettman66) add sip action objects
 
